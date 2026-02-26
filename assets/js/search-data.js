@@ -496,6 +496,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/9_project/";
+            },},{id: "projects-migration-in-the-face-of-climate-change",
+          title: 'Migration in the Face of Climate Change',
+          description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt",
+          section: "Projects",handler: () => {
+              window.location.href = "/tillmeissner.github.io/projects/climate_change_report/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
