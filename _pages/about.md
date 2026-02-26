@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Economic Geography · <a href='https://www.lse.ac.uk/geography-and-environment'>Department of Geography & Environment, LSE</a>
+subtitle: PhD in Economic Geography · <a href='https://www.lse.ac.uk/geography-and-environment'>Department of Geography & Environment, LSE</a>
 
 profile:
   align: right
@@ -23,16 +23,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in Economic Geography at the [London School of Economics and Political Science (LSE)](https://www.lse.ac.uk), where my dissertation examines **"Global Value Chains and Economic Development"**. My research sits at the intersection of economic geography, development economics, and quantitative social science.
+I am a researcher and policy analyst with 7+ years of experience at the intersection of economic development, geospatial analysis, and quantitative impact evaluation. I recently completed my **PhD in Economic Geography** at the [London School of Economics and Political Science (LSE)](https://www.lse.ac.uk), funded by a Doctoral Training Partnership scholarship from the **Economic and Social Research Council (ESRC)**. My dissertation, *"Global Value Chains and Economic Development"*, conducts original research on the local impacts of global value chains, combining firm-level, household, geospatial, and satellite data analysed using advanced statistical and econometric methods.
 
-I hold an MSc in Local Economic Development from LSE (Distinction, Best Overall Performance Prize), where my thesis studied racial segregation and social mobility in the United States using an instrumental variables approach. My undergraduate degree is a BA in Philosophy & Economics from the University of Bayreuth (Grade: 1.7), complemented by exchange semesters at the Université Paris 1 Sorbonne and Kangwon National University in South Korea.
+I hold an **MSc in Local Economic Development** from LSE (Distinction, Best Overall Performance Prize) and a **BA in Philosophy & Economics** from the University of Bayreuth, complemented by exchange semesters at the Université Paris 1 Sorbonne and Kangwon National University in South Korea.
 
-Alongside my doctoral research, I work as a **Graduate Teaching Assistant** at LSE's Department of Geography & Environment, teaching GY103 (Contemporary Europe: The Economics and Politics of European Integration) and GY140 (Introduction to Geographical Research: Quantitative Methods). I was Highly Commended at the LSE Class Teacher Awards in 2023, 2024, and 2025.
+At LSE, I worked as a **Graduate Research & Teaching Assistant**. As a research assistant, I contributed to the STEG project *"Migration in the Face of Climate Change: Assessing the Potential of Ultra-Poor Graduation Programs"* — processing climate datasets using R and Google Earth Engine and linking them to household survey data from Upper Egypt to analyse agricultural households' adaptation strategies. As a teaching assistant for GY103 (Contemporary Europe) and GY140 (Introduction to Geographical Research), I was recognised with LSE Class Teacher Awards in 2022, 2024, and 2025.
 
-Before joining LSE, I worked across international development — at the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ), GFA Consulting Group, Scio Network, the African Center for Economic Transformation in Ghana, and Germany Trade & Invest — advising on private sector development, trade facilitation, entrepreneurship promotion, and impact evaluation.
+Prior to my doctorate, I built 5+ years of experience in international development. At **GFA Consulting Group**, I led the acquisition of a EUR 519,512 GIZ-funded project on upgrading textile and garment supply chains in Ethiopia and managed a EUR 6.1 million EU-funded trade facilitation project supporting the Southern African Development Community (SADC). At **GIZ**, I contributed to the design and early implementation of [WIDU](https://widu.africa/), a digital platform leveraging diaspora remittances for business financing in Cameroon and Ghana, and supported women's entrepreneurship programmes in India. At the **African Center for Economic Transformation (ACET)** in Accra, I applied the African Transformation Index methodology to assess economic transformation across 30 African economies for the African Transformation Report 2017.
 
-My doctoral research is funded by a **Doctoral Training Partnership scholarship from the Economic and Social Research Council (ESRC)**.
+**Technical skills:** R, STATA, Google Earth Engine, QGIS, ArcGIS — applied to geospatial analysis, satellite data processing, econometrics, and rigorous impact evaluation.
 
-**Methods & Skills:** I am proficient in R and STATA for statistical analysis, GIS tools (QGIS, Google Earth Engine) for spatial economic analysis, and rigorous impact evaluation methods including causal inference for observational and experimental studies.
-
-**Languages:** German (native), English (full professional, TOEFL iBT 114/120), French (professional, C1), Spanish (basic).
+**Languages:** German (native), English (fluent, TOEFL iBT 114/120), French (fluent, C1), Spanish (basic, B1).
