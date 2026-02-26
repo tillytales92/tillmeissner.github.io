@@ -11,5 +11,5 @@ This project was conducted as part of the **Structural Transformation and Econom
 The analysis combines climate datasets processed via R and Google Earth Engine with household survey data, applying descriptive and econometric methods to study adaptation strategies among smallholder farming households.
 
 <div class="mt-4">
-  <a href="/ClimateChange_Report_static.html" class="btn btn-primary" target="_blank">View Full Report</a>
+  <a href="https://019c9a48-dcd9-7bf7-f6f6-9d80ff6da00b.share.connect.posit.cloud/" class="btn btn-primary" target="_blank">View Full Report</a>
 </div>
