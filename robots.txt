@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tillytales92.github.io/sitemap.xml
+Sitemap: https://tillytales92.github.io/tillmeissner.github.io/sitemap.xml
