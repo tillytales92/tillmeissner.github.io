@@ -98,6 +98,30 @@ cv:
           - "Supported analysis on China's role in Africa with a focus on trade, finance, and ODA."
           - "Applied ACET's African Transformation Index (ATI) methodology to assess economic transformation across 30 African economies for the African Transformation Report 2017."
 
+    Awards:
+      - title: MSc Local Economic Development Best Overall Performance Prize
+        awarder: London School of Economics and Political Science (LSE)
+        date: 2019-09
+        summary: "Awarded for the best overall performance in the MSc Local Economic Development programme."
+
+      - title: LSE Class Teacher Awards
+        awarder: London School of Economics and Political Science (LSE)
+        date: 2025-06
+        summary: "Awarded the LSE Class Teacher Award in 2024 and 2025 for excellence in teaching Contemporary Europe (GY 103)."
+
+    Extracurricular Activities:
+      - company: Weltwärts Civil Service
+        position: Civil Service Volunteer
+        location: Eguafo, Ghana
+        start_date: 2011-08
+        end_date: 2012-08
+
+      - company: Student Parliament
+        position: Member
+        location: University of Bayreuth, Germany
+        start_date: 2013-09
+        end_date: 2014-09
+
     Skills:
       - name: Programming Languages & Tools
         level: Advanced
@@ -121,3 +145,16 @@ cv:
 
       - name: Spanish
         summary: "Basic (B1)"
+
+    References:
+      - name: Riccardo Crescenzi
+        icon: fa-solid fa-user
+        reference: "Professor of Economic Geography, London School of Economics and Political Science (LSE). Contact: r.crescenzi@lse.ac.uk"
+
+      - name: Andrés Rodríguez-Pose
+        icon: fa-solid fa-user
+        reference: "Professor of Economic Geography, London School of Economics and Political Science (LSE). Contact: a.rodriguez-pose@lse.ac.uk"
+
+      - name: Thomas Farole
+        icon: fa-solid fa-user
+        reference: "Lead Economist for Sustainable Development, Europe and Central Asia (ECA), World Bank Group. Contact: tfarole@worldbank.org"
