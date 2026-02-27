@@ -153,6 +153,21 @@ ninja.data = [{
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
               window.location.href = "/tillmeissner.github.io/teachings/data-science-fundamentals/";
+            },},{id: "teachings-contemporary-europe-gy-103",
+          title: 'Contemporary Europe (GY 103)',
+          description: "Graduate Teaching Assistant for Block A: The Political Economy of European Integration. Taught 4 seminar groups across 9 classes in Autumn Term 2023/24 at LSE.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/tillmeissner.github.io/teachings/gy103-2023-2024/";
+            },},{id: "teachings-contemporary-europe-gy-103",
+          title: 'Contemporary Europe (GY 103)',
+          description: "Graduate Teaching Assistant for Block A: The Political Economy of European Integration. Taught 3 seminar groups across 9 classes in Autumn Term 2024/25 at LSE. Recipient of the LSE Class Teacher Award 2024 and 2025.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/tillmeissner.github.io/teachings/gy103-2024-2025/";
+            },},{id: "teachings-introduction-to-geographical-research-gy-140",
+          title: 'Introduction to Geographical Research (GY 140)',
+          description: "Graduate Teaching Assistant for the Applied Quantitative Methods module (Winter Term 2024/25). Delivered 4 groups of lab seminars covering core statistical concepts and methods using STATA, R, and Excel.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/tillmeissner.github.io/teachings/gy140-2024-2025/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
