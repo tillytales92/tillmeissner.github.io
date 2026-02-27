@@ -1,6 +1,6 @@
 ---
 layout: page
-title: China and Africa's Economic Transformation
+title: China and Ghana's Economic Transformation
 description: A policy report on China's role in Ghana's economic transformation, written for the African Center for Economic Transformation (ACET)
 importance: 2
 category: work
