@@ -2,6 +2,7 @@
 layout: book-review
 title: "The Age of Extremes: A History of the World, 1914–1991"
 author: Eric J. Hobsbawm
+cover: assets/img/book_covers/ageofextremes.jpg
 olid: OL1005721W
 isbn: 9780679730057
 categories: history non-fiction politics economics twentieth-century
