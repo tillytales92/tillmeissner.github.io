@@ -102,11 +102,21 @@ ninja.data = [{
             window.location.href = "/tillmeissner.github.io/blog/2019/populism-trade-or-technology/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+      },{id: "books-crashed-how-a-decade-of-financial-crises-changed-the-world",
+          title: 'Crashed: How a Decade of Financial Crises Changed the World',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/tillmeissner.github.io/books/the_godfather/";
+              window.location.href = "/tillmeissner.github.io/books/crashed/";
+            },},{id: "books-the-age-of-extremes-a-history-of-the-world-1914-1991",
+          title: 'The Age of Extremes: A History of the World, 1914–1991',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/age_of_extremes/";
+            },},{id: "books-petit-pays",
+          title: 'Petit pays',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/petit_pays/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
@@ -148,11 +158,6 @@ ninja.data = [{
           description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/climate_change_report/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/tillmeissner.github.io/teachings/data-science-fundamentals/";
             },},{id: "teachings-contemporary-europe-gy-103",
           title: 'Contemporary Europe (GY 103)',
           description: "Graduate Teaching Assistant for Block A: The Political Economy of European Integration. Taught 4 seminar groups across 9 classes in Autumn Term 2023/24 at LSE.",
@@ -168,11 +173,6 @@ ninja.data = [{
           description: "Graduate Teaching Assistant for the Applied Quantitative Methods module (Winter Term 2024/25). Delivered 4 groups of lab seminars covering core statistical concepts and methods using STATA, R, and Excel.",
           section: "Teachings",handler: () => {
               window.location.href = "/tillmeissner.github.io/teachings/gy140-2024-2025/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/tillmeissner.github.io/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-cv',
         title: 'CV',
