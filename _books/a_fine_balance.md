@@ -2,7 +2,7 @@
 layout: book-review
 title: A Fine Balance
 author: Rohinton Mistry
-cover: assets/img/book_covers/finebalace.jpg
+cover: assets/img/book_covers/finebalance.jpg
 isbn: 9781400030651
 categories: fiction literary-fiction historical-fiction india
 tags: top-picks
