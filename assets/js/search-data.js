@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Here is an overview of projects I have worked on.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/tillmeissner.github.io/projects/";
@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Here you&#39;ll find my latest CV. Click on the button to the right to download it.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/tillmeissner.github.io/cv/";
@@ -373,6 +373,28 @@ ninja.data = [{
             window.location.href = "/tillmeissner.github.io/blog/2020/twitter/";
           
         },
+      },{id: "post-has-globalisation-brought-about-the-death-of-distance",
+        
+          title: "Has Globalisation Brought About the Death of Distance?",
+        
+        description: "Despite falling transport costs, digital connectivity, and sweeping trade liberalisation, this essay argues that distance remains a stubborn and powerful force shaping economic opportunity in the 21st century.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/tillmeissner.github.io/blog/2019/death-of-distance/";
+          
+        },
+      },{id: "post-populism-and-deindustrialisation-trade-liberalisation-or-technological-change",
+        
+          title: "Populism and Deindustrialisation: Trade Liberalisation or Technological Change?",
+        
+        description: "What explains the rise of right-wing populism in high-income countries? This essay argues that technological change, not trade liberalisation, is the primary driver of manufacturing decline and the grievances fuelling populist politics.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/tillmeissner.github.io/blog/2019/populism-trade-or-technology/";
+          
+        },
       },{id: "post-a-post-with-disqus-comments",
         
           title: "a post with disqus comments",
@@ -489,6 +511,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/9_project/";
+            },},{id: "projects-china-and-africa-39-s-economic-transformation",
+          title: 'China and Africa&amp;#39;s Economic Transformation',
+          description: "A policy report on China&#39;s role in Ghana&#39;s economic transformation, written for the African Center for Economic Transformation (ACET)",
+          section: "Projects",handler: () => {
+              window.location.href = "/tillmeissner.github.io/projects/china_africa_transformation/";
             },},{id: "projects-migration-in-the-face-of-climate-change",
           title: 'Migration in the Face of Climate Change',
           description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt",
