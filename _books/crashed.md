@@ -2,6 +2,7 @@
 layout: book-review
 title: "Crashed: How a Decade of Financial Crises Changed the World"
 author: Adam Tooze
+cover: assets/img/book_covers/crashed.jpg
 olid: OL19719686W
 isbn: 9780670024933
 categories: non-fiction economics history politics finance
