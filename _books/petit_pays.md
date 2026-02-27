@@ -2,6 +2,7 @@
 layout: book-review
 title: Petit pays
 author: Gaël Faye
+cover: assets/img/book_covers/petitpays.jpg
 olid: OL27292611M
 isbn: 9782246857334
 categories: fiction historical-fiction africa coming-of-age literary
