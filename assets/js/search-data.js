@@ -102,7 +102,32 @@ ninja.data = [{
             window.location.href = "/tillmeissner.github.io/blog/2019/populism-trade-or-technology/";
           
         },
-      },{id: "books-crashed-how-a-decade-of-financial-crises-changed-the-world",
+      },{id: "books-half-of-a-yellow-sun",
+          title: 'Half of a Yellow Sun',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/half_of_a_yellow_sun/";
+            },},{id: "books-a-fine-balance",
+          title: 'A Fine Balance',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/a_fine_balance/";
+            },},{id: "books-kicking-away-the-ladder-development-strategy-in-historical-perspective",
+          title: 'Kicking Away the Ladder: Development Strategy in Historical Perspective',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/kicking_away_the_ladder/";
+            },},{id: "books-dreams-from-my-father-a-story-of-race-and-inheritance",
+          title: 'Dreams from My Father: A Story of Race and Inheritance',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/dreams_from_my_father/";
+            },},{id: "books-freedom",
+          title: 'Freedom',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/freedom/";
+            },},{id: "books-crashed-how-a-decade-of-financial-crises-changed-the-world",
           title: 'Crashed: How a Decade of Financial Crises Changed the World',
           description: "",
           section: "Books",handler: () => {
@@ -112,6 +137,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/tillmeissner.github.io/books/age_of_extremes/";
+            },},{id: "books-how-europe-underdeveloped-africa",
+          title: 'How Europe Underdeveloped Africa',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/how_europe_underdeveloped_africa/";
+            },},{id: "books-cutting-for-stone",
+          title: 'Cutting for Stone',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/cutting_for_stone/";
             },},{id: "books-petit-pays",
           title: 'Petit pays',
           description: "",
