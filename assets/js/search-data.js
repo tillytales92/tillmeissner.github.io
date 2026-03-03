@@ -155,14 +155,6 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/tillmeissner.github.io/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -193,11 +185,6 @@ ninja.data = [{
           description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/climate_change_report/";
-            },},{id: "projects-climate-change-report-embedded-test",
-          title: 'Climate Change Report (Embedded Test)',
-          description: "Testing inline HTML embedding via iframe",
-          section: "Projects",handler: () => {
-              window.location.href = "/tillmeissner.github.io/projects/climate_change_report_embedded/";
             },},{id: "teachings-contemporary-europe-gy-103",
           title: 'Contemporary Europe (GY 103)',
           description: "Graduate Teaching Assistant for Block A: The Political Economy of European Integration. Taught 4 seminar groups across 9 classes in Autumn Term 2023/24 at LSE.",
@@ -218,42 +205,28 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/tillmeissner.github.io/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/tillmeissner.github.io/assets/pdf/TillMeissner_CV_2025_other.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%74%69%6C%6C%61%6D@%67%6D%78.%64%65", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-bluesky',
+        title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://bsky.app/profile/tillytales.bsky.social", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/tillmeissner.github.io/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://www.linkedin.com/in/till-arne-meissner", "_blank");
         },
       },{
       id: 'light-theme',
