@@ -193,6 +193,11 @@ ninja.data = [{
           description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/climate_change_report/";
+            },},{id: "projects-climate-change-report-embedded-test",
+          title: 'Climate Change Report (Embedded Test)',
+          description: "Testing inline HTML embedding via iframe",
+          section: "Projects",handler: () => {
+              window.location.href = "/tillmeissner.github.io/projects/climate_change_report_embedded/";
             },},{id: "teachings-contemporary-europe-gy-103",
           title: 'Contemporary Europe (GY 103)',
           description: "Graduate Teaching Assistant for Block A: The Political Economy of European Integration. Taught 4 seminar groups across 9 classes in Autumn Term 2023/24 at LSE.",
