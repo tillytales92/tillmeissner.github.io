@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Migration in the Face of Climate Change
-description: Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt
-importance: 1
+description: Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt.
+img: assets/img/egypt_proj.jpg
+importance: 2
 category: work
 ---
 
