@@ -160,7 +160,7 @@ ninja.data = [{
               window.location.href = "/tillmeissner.github.io/projects/china_africa_transformation/";
             },},{id: "projects-migration-in-the-face-of-climate-change",
           title: 'Migration in the Face of Climate Change',
-          description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt",
+          description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt.",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/climate_change_report/";
             },},{id: "teachings-contemporary-europe-gy-103",
