@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/tillmeissner.github.io/blog/";
               },
-            },{id: "post-has-globalisation-brought-about-the-death-of-distance",
+            },{id: "post-plotting-3c-data-as-arcs-a-ggplot-solution",
+        
+          title: "Plotting 3C data as arcs - a ggplot solution",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/tillmeissner.github.io/blog/2026/test/";
+          
+        },
+      },{id: "post-has-globalisation-brought-about-the-death-of-distance",
         
           title: "Has Globalisation Brought About the Death of Distance?",
         
