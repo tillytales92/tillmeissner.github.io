@@ -58,9 +58,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/tillmeissner.github.io/blog/";
               },
-            },{id: "post-plotting-3c-data-as-arcs-a-ggplot-solution",
+            },{id: "post-testing-r-studio-posting",
         
-          title: "Plotting 3C data as arcs - a ggplot solution",
+          title: "Testing R Studio Posting",
         
         description: "",
         section: "Posts",
