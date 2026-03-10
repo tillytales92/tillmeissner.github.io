@@ -58,18 +58,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/tillmeissner.github.io/blog/";
               },
-            },{id: "post-testing-r-studio-posting-2",
-        
-          title: "Testing R Studio Posting - 2",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/tillmeissner.github.io/blog/2026/test2/";
-          
-        },
-      },{id: "post-testing-r-studio-posting",
+            },{id: "post-testing-r-studio-posting",
         
           title: "Testing R Studio Posting",
         
