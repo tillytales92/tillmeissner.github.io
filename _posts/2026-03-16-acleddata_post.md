@@ -44,12 +44,11 @@ relevant for studying civil conflict and popular mobilisation.
 
 ### Number of Events
 
-<figure>
-<img src="/assets/img/acleddata/plot-event-counts-1.png"
-alt="Yearly count of conflict events by type in Ethiopia, 2005–2025. Source: ACLED." />
-<figcaption aria-hidden="true">Yearly count of conflict events by type
-in Ethiopia, 2005–2025. Source: ACLED.</figcaption>
-</figure>
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/acleddata/plot-event-counts-1.png"
+  class="img-fluid rounded z-depth-1"
+%}
 
 Two distinct peaks are visible. The first, concentrated in the Protests
 and Riots panels, corresponds to the Oromo and Amhara protest movement
@@ -60,12 +59,11 @@ the Tigray War from November 2020.
 
 ### Reported Fatalities
 
-<figure>
-<img src="/assets/img/acleddata/plot-fatalities-1.png"
-alt="Yearly count of reported fatalities by event type in Ethiopia, 2005–2025. Source: ACLED." />
-<figcaption aria-hidden="true">Yearly count of reported fatalities by
-event type in Ethiopia, 2005–2025. Source: ACLED.</figcaption>
-</figure>
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/acleddata/plot-fatalities-1.png"
+  class="img-fluid rounded z-depth-1"
+%}
 
 The fatality data amplify the Tigray signal further. The battles panel
 shows a catastrophic spike in 2021–2022, consistent with independent
@@ -85,13 +83,11 @@ the maps render without gaps.
 
 ### Battles and Violence against Civilians, 2020–2024
 
-<figure>
-<img src="/assets/img/acleddata/map-battles-events-1.png"
-alt="Number of battles and violence-against-civilians events per wereda, 2020–2024. Source: ACLED." />
-<figcaption aria-hidden="true">Number of battles and
-violence-against-civilians events per wereda, 2020–2024. Source:
-ACLED.</figcaption>
-</figure>
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/acleddata/map-battles-events-1.png"
+  class="img-fluid rounded z-depth-1"
+%}
 
 In 2020 and 2021 fighting was concentrated almost exclusively in Tigray.
 By 2022 the front had expanded into Amhara and Afar as the conflict
@@ -99,13 +95,11 @@ escalated into a full-scale multi-front war. The Pretoria Agreement of
 November 2022 brought a ceasefire that is reflected in the sharp
 reduction in event counts for 2023 and 2024.
 
-<figure>
-<img src="/assets/img/acleddata/map-battles-fatalities-1.png"
-alt="Reported fatalities from battles and violence against civilians per wereda, 2020–2024. Source: ACLED." />
-<figcaption aria-hidden="true">Reported fatalities from battles and
-violence against civilians per wereda, 2020–2024. Source:
-ACLED.</figcaption>
-</figure>
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/acleddata/map-battles-fatalities-1.png"
+  class="img-fluid rounded z-depth-1"
+%}
 
 The fatality maps reveal a different pattern from raw event counts: some
 weredas record relatively few events but extremely high fatality tolls,
@@ -114,12 +108,11 @@ than sustained low-level fighting.
 
 ### Protests and Riots, 2015–2017
 
-<figure>
-<img src="/assets/img/acleddata/map-protests-1.png"
-alt="Number of protest and riot events per wereda, 2015–2017. Source: ACLED." />
-<figcaption aria-hidden="true">Number of protest and riot events per
-wereda, 2015–2017. Source: ACLED.</figcaption>
-</figure>
+{% include figure.liquid
+  loading="eager"
+  path="assets/img/acleddata/map-protests-1.png"
+  class="img-fluid rounded z-depth-1"
+%}
 
 Protests and riots in this period were heavily concentrated in Oromia —
 particularly in the zones surrounding Addis Ababa where the Addis Ababa
