@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/tillmeissner.github.io/blog/";
               },
-            },{id: "post-testing-r-studio-posting",
+            },{id: "post-mapping-conflict-in-ethiopia-with-acled-data",
+        
+          title: "Mapping Conflict in Ethiopia with ACLED Data",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/tillmeissner.github.io/blog/2026/acleddata_post/";
+          
+        },
+      },{id: "post-testing-r-studio-posting",
         
           title: "Testing R Studio Posting",
         
