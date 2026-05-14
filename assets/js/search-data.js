@@ -155,27 +155,7 @@ ninja.data = [{
             },},{id: "news-i-successfully-defended-my-phd-in-economic-geography-at-the-london-school-of-economics-and-political-science-my-supervisor-andrés-rodríguez-posé-kindly-shared-the-news-on-linkedin",
           title: 'I successfully defended my PhD in Economic Geography at the London School of...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/tillmeissner.github.io/projects/1_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/tillmeissner.github.io/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/tillmeissner.github.io/projects/5_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/tillmeissner.github.io/projects/9_project/";
-            },},{id: "projects-china-and-ghana-39-s-economic-transformation",
+          section: "News",},{id: "projects-china-and-ghana-39-s-economic-transformation",
           title: 'China and Ghana&amp;#39;s Economic Transformation',
           description: "A policy report on China&#39;s role in Ghana&#39;s economic transformation, written for the African Center for Economic Transformation (ACET)",
           section: "Projects",handler: () => {
