@@ -50,6 +50,13 @@ cv:
 
     Experience:
       - company: London School of Economics and Political Science (LSE)
+        position: Research Officer
+        location: London, UK
+        start_date: 2026-03
+        highlights:
+          - "Research Officer on a project on Green Foreign Direct Investment in Africa."
+
+      - company: London School of Economics and Political Science (LSE)
         position: Graduate Research & Teaching Assistant
         location: London, UK
         start_date: 2021-09
@@ -138,7 +145,7 @@ cv:
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent (TOEFL: 114/120)"
+        summary: "Bilingual"
 
       - name: French
         summary: "Fluent (C1)"
