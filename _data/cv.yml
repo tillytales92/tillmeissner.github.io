@@ -54,7 +54,7 @@ cv:
         location: London, UK
         start_date: 2025-09
         highlights:
-          - "Research Officer on a project on Green Foreign Direct Investment in Africa. Our methodology combines quantitative and qualitative approaches. First, we build a comprehensive dataset of green inward FDI for IGC partner countries using an innovative method that leverages the EU Taxonomy of Sustainable Activities and GPT-4 Large Language Model, providing a nuanced understanding of green FDI beyond traditional sectors. Second, we conduct a deep-dive case study of Rwanda, including a GVC mapping exercise and stakeholder interviews, to gain insights into policy contexts and initiatives for green growth via FDI and GVC integration."
+          - "Research Officer on a project on Green Foreign Direct Investment in Africa. Using the EU Taxonomy of Sustainable Activities and GPT-4, we build a novel dataset of green inward FDI for IGC partner countries. A Rwanda case study combining GVC mapping and stakeholder interviews provides insights into policy conditions for green growth via FDI."
           - "Graduate Research Assistant for the STEG project \"Migration in the Face of Climate Change: Assessing the Potential of Ultra-Poor Graduation Programs\": Collected and processed climate datasets using R and Google Earth Engine, linking them to household survey data from Upper Egypt."
           - "Conducted descriptive and econometric analyses on agricultural households' adaptation strategies to climate change."
 
