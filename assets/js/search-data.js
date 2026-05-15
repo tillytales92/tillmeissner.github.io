@@ -69,17 +69,6 @@ ninja.data = [{
             window.location.href = "/tillmeissner.github.io/blog/2026/acleddata_post/";
           
         },
-      },{id: "post-testing-r-studio-posting",
-        
-          title: "Testing R Studio Posting",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/tillmeissner.github.io/blog/2026/test/";
-          
-        },
       },{id: "post-has-globalisation-brought-about-the-death-of-distance",
         
           title: "Has Globalisation Brought About the Death of Distance?",
