@@ -52,9 +52,11 @@ cv:
       - company: London School of Economics and Political Science (LSE)
         position: Research Officer
         location: London, UK
-        start_date: 2026-03
+        start_date: 2025-09
         highlights:
-          - "Research Officer on a project on Green Foreign Direct Investment in Africa."
+          - "Research Officer on a project on Green Foreign Direct Investment in Africa. Our methodology combines quantitative and qualitative approaches. First, we build a comprehensive dataset of green inward FDI for IGC partner countries using an innovative method that leverages the EU Taxonomy of Sustainable Activities and GPT-4 Large Language Model, providing a nuanced understanding of green FDI beyond traditional sectors. Second, we conduct a deep-dive case study of Rwanda, including a GVC mapping exercise and stakeholder interviews, to gain insights into policy contexts and initiatives for green growth via FDI and GVC integration."
+          - "Graduate Research Assistant for the STEG project \"Migration in the Face of Climate Change: Assessing the Potential of Ultra-Poor Graduation Programs\": Collected and processed climate datasets using R and Google Earth Engine, linking them to household survey data from Upper Egypt."
+          - "Conducted descriptive and econometric analyses on agricultural households' adaptation strategies to climate change."
 
       - company: London School of Economics and Political Science (LSE)
         position: Graduate Research & Teaching Assistant
@@ -62,8 +64,6 @@ cv:
         start_date: 2021-09
         end_date: 2025-06
         highlights:
-          - "Graduate Research Assistant for the STEG project \"Migration in the Face of Climate Change: Assessing the Potential of Ultra-Poor Graduation Programs\": Collected and processed climate datasets using R and Google Earth Engine, linking them to household survey data from Upper Egypt."
-          - "Conducted descriptive and econometric analyses on agricultural households' adaptation strategies to climate change."
           - "Graduate Teaching Assistant for Contemporary Europe (GY 103): A course on the economics and politics of European integration (LSE Class Teacher Awards in 2022, 2024 and 2025)."
           - "Graduate Teaching Assistant for Introduction to Geographical Research (GY 140): A course introducing students to core statistical concepts, research methodologies and statistical software (R & STATA)."
 
