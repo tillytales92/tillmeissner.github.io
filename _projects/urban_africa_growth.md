@@ -2,7 +2,7 @@
 layout: page
 title: Urban Africa Growth Tracker
 description: An interactive dashboard tracking urbanization trends across Sub-Saharan Africa.
-img:
+img: assets/img/buildupexpansion_10km.jpeg
 importance: 3
 category: work
 ---
