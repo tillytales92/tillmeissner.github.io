@@ -1,0 +1,52 @@
+<div id="author-origins-map" style="height:420px; border-radius:8px; margin-bottom:2rem;"></div>
+
+<script>
+(function () {
+  var authorData = [
+    {% for author in site.data.author_origins %}
+    { name: {{ author.name | jsonify }}, country: {{ author.country | jsonify }}, lat: {{ author.lat }}, lng: {{ author.lng }} }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ];
+
+  function initAuthorMap() {
+    var el = document.getElementById('author-origins-map');
+    if (!el || typeof L === 'undefined') return;
+
+    var map = L.map(el, { scrollWheelZoom: false }).setView([20, 10], 2);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Group authors by country (same lat/lng = same country)
+    var groups = {};
+    authorData.forEach(function (a) {
+      var key = a.lat + ',' + a.lng;
+      if (!groups[key]) {
+        groups[key] = { lat: a.lat, lng: a.lng, country: a.country, authors: [] };
+      }
+      groups[key].authors.push(a.name);
+    });
+
+    Object.values(groups).forEach(function (g) {
+      var n = g.authors.length;
+      var names = g.authors.map(function(a){ return '<span style="display:block">' + a + '</span>'; }).join('');
+      var popup = '<strong>' + g.country + '</strong><br><small>' + names + '</small>';
+      L.circleMarker([g.lat, g.lng], {
+        radius: 5 + n * 2.5,
+        color: '#1a6496',
+        weight: 1.5,
+        fillColor: '#5bc0de',
+        fillOpacity: 0.65
+      }).addTo(map).bindPopup(popup, { maxHeight: 200 });
+    });
+  }
+
+  // Leaflet loads deferred — wait for full page load
+  if (document.readyState === 'complete') {
+    initAuthorMap();
+  } else {
+    window.addEventListener('load', initAuthorMap);
+  }
+})();
+</script>

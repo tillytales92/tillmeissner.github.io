@@ -1,0 +1,693 @@
+# Author origins for the books page Leaflet map.
+# lat/lng is the country centroid — authors from the same country share coordinates
+# so the JS groups them into one sized bubble.
+
+- name: "Chimamanda Ngozi Adichie"
+  country: "Nigeria"
+  lat: 9.082
+  lng: 8.675
+
+- name: "Chinua Achebe"
+  country: "Nigeria"
+  lat: 9.082
+  lng: 8.675
+
+- name: "Eric J. Hobsbawm"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Adam Tooze"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Kazuo Ishiguro"
+  country: "Japan"
+  lat: 36.205
+  lng: 138.253
+
+- name: "Lynsey Hanley"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Tom Lavers"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "George Orwell"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Ian McEwan"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Julian Barnes"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Owen   Jones"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Kamila Shamsie"
+  country: "Pakistan"
+  lat: 30.375
+  lng: 69.345
+
+- name: "Jonathan Haskel"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Graham Greene"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Benjamin Myers"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Zadie Smith"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Reni Eddo-Lodge"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Akala"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Emma Dabiri"
+  country: "Ireland"
+  lat: 53.413
+  lng: -8.244
+
+- name: "J.K. Rowling"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Caleb Azumah Nelson"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Ken Follett"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Paul Collier"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Salman Rushdie"
+  country: "India"
+  lat: 20.594
+  lng: 78.963
+
+- name: "J.J. Bola"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "William Golding"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "William Shakespeare"
+  country: "United Kingdom"
+  lat: 51.510
+  lng: -0.118
+
+- name: "Benedict Wells"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Christoph Schlingensief"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Julia Fritzsche"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Marcel Fratzscher"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Wolfgang Streeck"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Aaron Sahr"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Frank Witzel"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Max Czollek"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Maja Göpel"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Leif Randt"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Helene Hegemann"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Gregor Gysi"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Carolin Emcke"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Monika Feth"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Julian Nida-Rümelin"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Katharina Pistor"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Andrea Maria Schenkel"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Theodor Storm"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Peter Scholl-Latour"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Georg Büchner"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Heinrich Heine"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "E.T.A. Hoffmann"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Friedrich Schiller"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Gotthold Ephraim Lessing"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Thomas Mann"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Klaus Mann"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Hermann Hesse"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Noah Sow"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Tupoka Ogette"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Bartholomäus Grill"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Anne Frank"
+  country: "Germany"
+  lat: 51.166
+  lng: 10.452
+
+- name: "Christian Kracht"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Max Frisch"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Friedrich Dürrenmatt"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Martin Suter"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Pascal Mercier"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Peter Stamm"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Rolf Dobelli"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Alain de Botton"
+  country: "Switzerland"
+  lat: 46.818
+  lng: 8.228
+
+- name: "Robert Seethaler"
+  country: "Austria"
+  lat: 47.516
+  lng: 14.550
+
+- name: "Ödön von Horváth"
+  country: "Austria"
+  lat: 47.516
+  lng: 14.550
+
+- name: "Franz Kafka"
+  country: "Czech Republic"
+  lat: 49.818
+  lng: 15.473
+
+- name: "Milan Kundera"
+  country: "Czech Republic"
+  lat: 49.818
+  lng: 15.473
+
+- name: "Michel Houellebecq"
+  country: "France"
+  lat: 46.228
+  lng: 2.214
+
+- name: "Thomas Piketty"
+  country: "France"
+  lat: 46.228
+  lng: 2.214
+
+- name: "David Diop"
+  country: "France"
+  lat: 46.228
+  lng: 2.214
+
+- name: "Albert Camus"
+  country: "France"
+  lat: 46.228
+  lng: 2.214
+
+- name: "Gaël Faye"
+  country: "France"
+  lat: 46.228
+  lng: 2.214
+
+- name: "Elena Ferrante"
+  country: "Italy"
+  lat: 41.872
+  lng: 12.567
+
+- name: "Mariana Mazzucato"
+  country: "Italy"
+  lat: 41.872
+  lng: 12.567
+
+- name: "J.M. Coetzee"
+  country: "South Africa"
+  lat: -30.560
+  lng: 22.938
+
+- name: "Damon Galgut"
+  country: "South Africa"
+  lat: -30.560
+  lng: 22.938
+
+- name: "Nelson Mandela"
+  country: "South Africa"
+  lat: -30.560
+  lng: 22.938
+
+- name: "Jason Hickel"
+  country: "South Africa"
+  lat: -30.560
+  lng: 22.938
+
+- name: "Gabriel García Márquez"
+  country: "Colombia"
+  lat: 4.571
+  lng: -74.297
+
+- name: "Mario Vargas Llosa"
+  country: "Peru"
+  lat: -9.190
+  lng: -75.015
+
+- name: "Yanis Varoufakis"
+  country: "Greece"
+  lat: 39.074
+  lng: 21.824
+
+- name: "Ha-Joon Chang"
+  country: "South Korea"
+  lat: 35.908
+  lng: 127.767
+
+- name: "Min Jin Lee"
+  country: "South Korea"
+  lat: 35.908
+  lng: 127.767
+
+- name: "Dani Rodrik"
+  country: "Turkey"
+  lat: 38.964
+  lng: 35.244
+
+- name: "Olga Tokarczuk"
+  country: "Poland"
+  lat: 51.919
+  lng: 19.145
+
+- name: "Ryszard Kapuściński"
+  country: "Poland"
+  lat: 51.919
+  lng: 19.145
+
+- name: "Yuval Noah Harari"
+  country: "Israel"
+  lat: 31.046
+  lng: 34.852
+
+- name: "Jonathan Franzen"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Barack Obama"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "J.D. Vance"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Matthew C. Klein"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Alice H. Amsden"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Claudia Goldin"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Toni Morrison"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Bill Bryson"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Kate Aronoff"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Nancy Fraser"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "N.H. Kleinbaum"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "James Baldwin"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Jared Diamond"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Ta-Nehisi Coates"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Adam M. Grant"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Stephanie Kelton"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "James Clear"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Lauren Wilkinson"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Joseph E. Stiglitz"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "William Easterly"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Kevin P. Gallagher"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Christopher Heath Wellman"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Ernest Hemingway"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "F. Scott Fitzgerald"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "John Steinbeck"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "T. Coraghessan Boyle"
+  country: "USA"
+  lat: 37.090
+  lng: -95.713
+
+- name: "Abhijit V. Banerjee"
+  country: "India"
+  lat: 20.594
+  lng: 78.963
+
+- name: "Abraham   Verghese"
+  country: "India"
+  lat: 20.594
+  lng: 78.963
+
+- name: "Jhumpa Lahiri"
+  country: "India"
+  lat: 20.594
+  lng: 78.963
+
+- name: "Rupi Kaur"
+  country: "India"
+  lat: 20.594
+  lng: 78.963
+
+- name: "Ocean Vuong"
+  country: "Vietnam"
+  lat: 14.058
+  lng: 108.277
+
+- name: "Yaa Gyasi"
+  country: "Ghana"
+  lat: 7.947
+  lng: -1.023
+
+- name: "Felwine Sarr"
+  country: "Senegal"
+  lat: 14.497
+  lng: -14.452
+
+- name: "Walter Rodney"
+  country: "Guyana"
+  lat: 4.860
+  lng: -58.930
+
+- name: "V.S. Naipaul"
+  country: "Trinidad and Tobago"
+  lat: 10.692
+  lng: -61.222
+
+- name: "Fantu Cheru"
+  country: "Ethiopia"
+  lat: 9.145
+  lng: 40.490
+
+- name: "Dambisa Moyo"
+  country: "Zambia"
+  lat: 13.134
+  lng: 27.849
+
+- name: "Paulo Coelho"
+  country: "Brazil"
+  lat: -14.235
+  lng: -51.925
+
+- name: "Romina Pistolas"
+  country: "Chile"
+  lat: -35.675
+  lng: -71.543
+
+- name: "Pajtim Statovci"
+  country: "Finland"
+  lat: 61.924
+  lng: 25.748
+
+- name: "Carlos Ruiz Zafón"
+  country: "Spain"
+  lat: 40.464
+  lng: -3.749
+
+- name: "Akbar Noman"
+  country: "Bangladesh"
+  lat: 23.685
+  lng: 90.356
+
+- name: "Morten Jerven"
+  country: "Norway"
+  lat: 60.472
+  lng: 8.469
+
+- name: "Oscar Wilde"
+  country: "Ireland"
+  lat: 53.413
+  lng: -8.244
+
+- name: "David Van Reybrouck"
+  country: "Belgium"
+  lat: 50.504
+  lng: 4.470
+
+- name: "Harry Mulisch"
+  country: "Netherlands"
+  lat: 52.133
+  lng: 5.291
+
+- name: "Juan Rulfo"
+  country: "Mexico"
+  lat: 23.635
+  lng: -102.553
+
+- name: "Rohinton Mistry"
+  country: "India"
+  lat: 20.594
+  lng: 78.963
