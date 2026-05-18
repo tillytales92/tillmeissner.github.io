@@ -3,11 +3,6 @@ layout: page
 ---
 {{ content }}
 
-{% if page.map %}
-  <h2>Where the authors are from</h2>
-  {% include author_map.liquid %}
-{% endif %}
-
 {% if page.collection and page.collection.size > 0 %}
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
@@ -33,16 +28,31 @@ layout: page
           {% elsif item.isbn %}
             <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
           {% endif %}
-          {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+          {% if item.stars %}
+            {% assign stars = item.stars | plus: 0 %}
+            {% if stars == 5 %}
+              <figcaption class="loved">Loved it</figcaption>
+            {% elsif stars == 4 %}
+              <figcaption class="liked">Liked it</figcaption>
+            {% elsif stars == 3 %}
+              <figcaption class="didnt-mind">Didn't mind it</figcaption>
+            {% elsif stars == 2 %}
+              <figcaption class="disliked">Disliked it</figcaption>
+            {% elsif stars == 1 %}
+              <figcaption class="hated">Hated it</figcaption>
+            {% else %}
+              <figcaption class="finished">Finished</figcaption>
+            {% endif %}
+          {% elsif item.status %}
+            {% assign statuses = 'abandoned,interested,paused,queued,reading,reread' | split: ',' %}
             {% assign status = item.status | downcase | strip %}
             {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
+              <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
             {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+              <figcaption class="finished">Finished</figcaption>
             {% endif %}
           {% else %}
-            <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+            <figcaption class="finished">Finished</figcaption>
           {% endif %}
         </a>
       </figure>
