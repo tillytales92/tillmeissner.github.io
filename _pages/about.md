@@ -35,4 +35,4 @@ Prior to my doctorate, I built 5+ years of experience in international developme
 
 **Technical skills:** R, STATA, Google Earth Engine, QGIS, ArcGIS — applied to geospatial analysis, satellite data processing, econometrics, and rigorous impact evaluation.
 
-**Languages:** German (native), English (bilingual), French (fluent, C1), Spanish (intermediate, B1).
+**Languages:** German (native), English (bilingual), French (fluent, C1), Spanish (upper intermediate, B2).
