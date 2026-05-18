@@ -1,0 +1,328 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> author map | Till Arne Meissner </title> <meta name="author" content="Till Arne Meissner"> <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. "> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <link rel="stylesheet" href="/tillmeissner.github.io/assets/css/bootstrap.min.css?v=a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/tillmeissner.github.io/assets/css/academicons.min.css?v=f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/tillmeissner.github.io/assets/css/scholar-icons.css?v=62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/tillmeissner.github.io/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8E%88&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/tillmeissner.github.io/assets/css/main.css?v=d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://tillytales92.github.io/tillmeissner.github.io/bookmap/"> <script src="/tillmeissner.github.io/assets/js/theme.js?v=5fea5159b787642c1bbc1f334d60f883"></script> <link defer rel="stylesheet" href="/tillmeissner.github.io/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" integrity="sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ=" crossorigin="anonymous"> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/tillmeissner.github.io/"> <span class="font-weight-bold">Till</span> Arne Meissner </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/tillmeissner.github.io/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/tillmeissner.github.io/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/tillmeissner.github.io/projects/">projects </a> </li> <li class="nav-item "> <a class="nav-link" href="/tillmeissner.github.io/repositories/">repositories </a> </li> <li class="nav-item "> <a class="nav-link" href="/tillmeissner.github.io/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/tillmeissner.github.io/teaching/">teaching </a> </li> <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">submenus <span class="sr-only">(current)</span> </a> <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown"> <a class="dropdown-item " href="/tillmeissner.github.io/books/">bookshelf</a> <a class="dropdown-item active" href="/tillmeissner.github.io/bookmap/">author map</a> <div class="dropdown-divider"></div> <a class="dropdown-item " href="/tillmeissner.github.io/blog/">blog</a> </div> </li> <li class="nav-item"> <button id="search-toggle" title="Search" onclick="openSearchModal()"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">author map</h1> <p class="post-description"></p> </header> <article> <p>A map of where the authors I’ve read are from.</p> <div id="author-origins-map" style="height:420px; border-radius:8px; margin-bottom:2rem;"></div> <script>
+(function () {
+  var authorData = [
+    
+    { name: "Chimamanda Ngozi Adichie", country: "Nigeria", lat: 9.082, lng: 8.675 },
+    
+    { name: "Chinua Achebe", country: "Nigeria", lat: 9.082, lng: 8.675 },
+    
+    { name: "Eric J. Hobsbawm", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Adam Tooze", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Kazuo Ishiguro", country: "Japan", lat: 36.205, lng: 138.253 },
+    
+    { name: "Lynsey Hanley", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Tom Lavers", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "George Orwell", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Ian McEwan", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Julian Barnes", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Owen   Jones", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Kamila Shamsie", country: "Pakistan", lat: 30.375, lng: 69.345 },
+    
+    { name: "Jonathan Haskel", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Graham Greene", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Benjamin Myers", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Zadie Smith", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Reni Eddo-Lodge", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Akala", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Emma Dabiri", country: "Ireland", lat: 53.413, lng: -8.244 },
+    
+    { name: "J.K. Rowling", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Caleb Azumah Nelson", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Ken Follett", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Paul Collier", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Salman Rushdie", country: "India", lat: 20.594, lng: 78.963 },
+    
+    { name: "J.J. Bola", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "William Golding", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "William Shakespeare", country: "United Kingdom", lat: 51.51, lng: -0.118 },
+    
+    { name: "Benedict Wells", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Christoph Schlingensief", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Julia Fritzsche", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Marcel Fratzscher", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Wolfgang Streeck", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Aaron Sahr", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Frank Witzel", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Max Czollek", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Maja Göpel", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Leif Randt", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Helene Hegemann", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Gregor Gysi", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Carolin Emcke", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Monika Feth", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Julian Nida-Rümelin", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Katharina Pistor", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Andrea Maria Schenkel", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Theodor Storm", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Peter Scholl-Latour", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Georg Büchner", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Heinrich Heine", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "E.T.A. Hoffmann", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Friedrich Schiller", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Gotthold Ephraim Lessing", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Thomas Mann", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Klaus Mann", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Hermann Hesse", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Noah Sow", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Tupoka Ogette", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Bartholomäus Grill", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Anne Frank", country: "Germany", lat: 51.166, lng: 10.452 },
+    
+    { name: "Christian Kracht", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Max Frisch", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Friedrich Dürrenmatt", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Martin Suter", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Pascal Mercier", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Peter Stamm", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Rolf Dobelli", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Alain de Botton", country: "Switzerland", lat: 46.818, lng: 8.228 },
+    
+    { name: "Robert Seethaler", country: "Austria", lat: 47.516, lng: 14.55 },
+    
+    { name: "Ödön von Horváth", country: "Austria", lat: 47.516, lng: 14.55 },
+    
+    { name: "Franz Kafka", country: "Czech Republic", lat: 49.818, lng: 15.473 },
+    
+    { name: "Milan Kundera", country: "Czech Republic", lat: 49.818, lng: 15.473 },
+    
+    { name: "Michel Houellebecq", country: "France", lat: 46.228, lng: 2.214 },
+    
+    { name: "Thomas Piketty", country: "France", lat: 46.228, lng: 2.214 },
+    
+    { name: "David Diop", country: "France", lat: 46.228, lng: 2.214 },
+    
+    { name: "Albert Camus", country: "France", lat: 46.228, lng: 2.214 },
+    
+    { name: "Gaël Faye", country: "France", lat: 46.228, lng: 2.214 },
+    
+    { name: "Elena Ferrante", country: "Italy", lat: 41.872, lng: 12.567 },
+    
+    { name: "Mariana Mazzucato", country: "Italy", lat: 41.872, lng: 12.567 },
+    
+    { name: "J.M. Coetzee", country: "South Africa", lat: -30.56, lng: 22.938 },
+    
+    { name: "Damon Galgut", country: "South Africa", lat: -30.56, lng: 22.938 },
+    
+    { name: "Nelson Mandela", country: "South Africa", lat: -30.56, lng: 22.938 },
+    
+    { name: "Jason Hickel", country: "South Africa", lat: -30.56, lng: 22.938 },
+    
+    { name: "Gabriel García Márquez", country: "Colombia", lat: 4.571, lng: -74.297 },
+    
+    { name: "Mario Vargas Llosa", country: "Peru", lat: -9.19, lng: -75.015 },
+    
+    { name: "Yanis Varoufakis", country: "Greece", lat: 39.074, lng: 21.824 },
+    
+    { name: "Ha-Joon Chang", country: "South Korea", lat: 35.908, lng: 127.767 },
+    
+    { name: "Min Jin Lee", country: "South Korea", lat: 35.908, lng: 127.767 },
+    
+    { name: "Dani Rodrik", country: "Turkey", lat: 38.964, lng: 35.244 },
+    
+    { name: "Olga Tokarczuk", country: "Poland", lat: 51.919, lng: 19.145 },
+    
+    { name: "Ryszard Kapuściński", country: "Poland", lat: 51.919, lng: 19.145 },
+    
+    { name: "Yuval Noah Harari", country: "Israel", lat: 31.046, lng: 34.852 },
+    
+    { name: "Jonathan Franzen", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Barack Obama", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "J.D. Vance", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Matthew C. Klein", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Alice H. Amsden", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Claudia Goldin", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Toni Morrison", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Bill Bryson", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Kate Aronoff", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Nancy Fraser", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "N.H. Kleinbaum", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "James Baldwin", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Jared Diamond", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Ta-Nehisi Coates", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Adam M. Grant", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Stephanie Kelton", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "James Clear", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Lauren Wilkinson", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Joseph E. Stiglitz", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "William Easterly", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Kevin P. Gallagher", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Christopher Heath Wellman", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Ernest Hemingway", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "F. Scott Fitzgerald", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "John Steinbeck", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "T. Coraghessan Boyle", country: "USA", lat: 37.09, lng: -95.713 },
+    
+    { name: "Abhijit V. Banerjee", country: "India", lat: 20.594, lng: 78.963 },
+    
+    { name: "Abraham   Verghese", country: "India", lat: 20.594, lng: 78.963 },
+    
+    { name: "Jhumpa Lahiri", country: "India", lat: 20.594, lng: 78.963 },
+    
+    { name: "Rupi Kaur", country: "India", lat: 20.594, lng: 78.963 },
+    
+    { name: "Ocean Vuong", country: "Vietnam", lat: 14.058, lng: 108.277 },
+    
+    { name: "Yaa Gyasi", country: "Ghana", lat: 7.947, lng: -1.023 },
+    
+    { name: "Felwine Sarr", country: "Senegal", lat: 14.497, lng: -14.452 },
+    
+    { name: "Walter Rodney", country: "Guyana", lat: 4.86, lng: -58.93 },
+    
+    { name: "V.S. Naipaul", country: "Trinidad and Tobago", lat: 10.692, lng: -61.222 },
+    
+    { name: "Fantu Cheru", country: "Ethiopia", lat: 9.145, lng: 40.49 },
+    
+    { name: "Dambisa Moyo", country: "Zambia", lat: 13.134, lng: 27.849 },
+    
+    { name: "Paulo Coelho", country: "Brazil", lat: -14.235, lng: -51.925 },
+    
+    { name: "Romina Pistolas", country: "Chile", lat: -35.675, lng: -71.543 },
+    
+    { name: "Pajtim Statovci", country: "Finland", lat: 61.924, lng: 25.748 },
+    
+    { name: "Carlos Ruiz Zafón", country: "Spain", lat: 40.464, lng: -3.749 },
+    
+    { name: "Akbar Noman", country: "Bangladesh", lat: 23.685, lng: 90.356 },
+    
+    { name: "Morten Jerven", country: "Norway", lat: 60.472, lng: 8.469 },
+    
+    { name: "Oscar Wilde", country: "Ireland", lat: 53.413, lng: -8.244 },
+    
+    { name: "David Van Reybrouck", country: "Belgium", lat: 50.504, lng: 4.47 },
+    
+    { name: "Harry Mulisch", country: "Netherlands", lat: 52.133, lng: 5.291 },
+    
+    { name: "Juan Rulfo", country: "Mexico", lat: 23.635, lng: -102.553 },
+    
+    { name: "Rohinton Mistry", country: "India", lat: 20.594, lng: 78.963 }
+    
+  ];
+
+  function initAuthorMap() {
+    var el = document.getElementById('author-origins-map');
+    if (!el || typeof L === 'undefined') return;
+
+    var map = L.map(el, { scrollWheelZoom: false }).setView([20, 10], 2);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    // Group authors by country (same lat/lng = same country)
+    var groups = {};
+    authorData.forEach(function (a) {
+      var key = a.lat + ',' + a.lng;
+      if (!groups[key]) {
+        groups[key] = { lat: a.lat, lng: a.lng, country: a.country, authors: [] };
+      }
+      groups[key].authors.push(a.name);
+    });
+
+    Object.values(groups).forEach(function (g) {
+      var n = g.authors.length;
+      var names = g.authors.map(function(a){ return '<span style="display:block">' + a + '</span>'; }).join('');
+      var popup = '<strong>' + g.country + '</strong><br><small>' + names + '</small>';
+      L.circleMarker([g.lat, g.lng], {
+        radius: 5 + n * 2.5,
+        color: '#1a6496',
+        weight: 1.5,
+        fillColor: '#5bc0de',
+        fillOpacity: 0.65
+      }).addTo(map).bindPopup(popup, { maxHeight: 200 });
+    });
+  }
+
+  // Leaflet loads deferred — wait for full page load
+  if (document.readyState === 'complete') {
+    initAuthorMap();
+  } else {
+    window.addEventListener('load', initAuthorMap);
+  }
+})();
+</script> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Till Arne Meissner. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/tillmeissner.github.io/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/tillmeissner.github.io/assets/js/masonry.js?v=a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js" integrity="sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg=" crossorigin="anonymous"></script> <script defer src="/tillmeissner.github.io/assets/js/leaflet-setup.js?v=b6313931e203b924523e2d8b75fe8874" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/tillmeissner.github.io/assets/js/zoom.js?v=85ddb88934d28b74e78031fd54cf8308"></script> <script src="/tillmeissner.github.io/assets/js/no_defer.js?v=2781658a0a2b13ed609542042a859126"></script> <script defer src="/tillmeissner.github.io/assets/js/common.js?v=c15de51d4bb57887caa2c21988d97279"></script> <script defer src="/tillmeissner.github.io/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/tillmeissner.github.io/assets/js/jupyter_new_tab.js?v=d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/tillmeissner.github.io/assets/js/mathjax-setup.js?v=a5bb4e6a542c546dd929b24b8b236dfd"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/tillmeissner.github.io/assets/js/progress-bar.js?v=2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/tillmeissner.github.io/assets/js/vanilla-back-to-top.min.js?v=f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/tillmeissner.github.io/assets/js/search/ninja-keys.min.js?v=a3446f084dcaecc5f75aa1757d087dcf"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/tillmeissner.github.io/assets/js/search-setup.js?v=6c304f7b1992d4b60f7a07956e52f04a"></script> <script src="/tillmeissner.github.io/assets/js/search-data.js"></script> <script src="/tillmeissner.github.io/assets/js/shortcut-key.js?v=ccc841c459bfc0e64c1c2b5acd10df02"></script> </body> </html>
