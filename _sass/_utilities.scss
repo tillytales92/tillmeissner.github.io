@@ -556,6 +556,36 @@ figure.cover {
     background-color: #a6517d;
   }
 
+  figcaption.loved {
+    font-family: monospace;
+    color: #23212d;
+    background-color: #f5c518;
+  }
+
+  figcaption.liked {
+    font-family: monospace;
+    color: #23212d;
+    background-color: #62c462;
+  }
+
+  figcaption.didnt-mind {
+    font-family: monospace;
+    color: #23212d;
+    background-color: #b0abb3;
+  }
+
+  figcaption.disliked {
+    font-family: monospace;
+    color: #23212d;
+    background-color: #f89406;
+  }
+
+  figcaption.hated {
+    font-family: monospace;
+    color: #23212d;
+    background-color: #ee5f5b;
+  }
+
   figcaption.uncategorized {
     font-family: monospace;
     color: #23212d;
