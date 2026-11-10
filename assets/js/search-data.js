@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Here you&#39;ll find my latest CV. Click on the button to the right to download it.",
+          description: "My latest academic CV.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/tillmeissner.github.io/cv/";
