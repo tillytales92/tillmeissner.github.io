@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Golden Traps? Artisanal Mining in Ghana"
-description: Self-reinforcing dynamics in the shift from agriculture to illegal artisanal gold mining (galamsey), studied with remote sensing and a structural model of land use
+description: Self-reinforcing dynamics in the shift from agriculture to artisanal gold mining (galamsey), studied with remote sensing and a structural model of land use
 img: assets/img/galamsey_map.jpg
 importance: 1
 category: work
@@ -24,7 +24,7 @@ category: work
 
 Transient shocks, such as weather and swings in global commodity prices, increasingly drive land-use transitions in developing economies. Where land-use decisions generate externalities, small deviations from the status quo can trigger self-reinforcing dynamics that lead to large and potentially irreversible shifts between equilibria.
 
-This project studies these dynamics in the shift from agriculture to **illegal artisanal gold mining** — known in Ghana as _galamsey_. Artisanal mining employs an estimated 45 million households in Sub-Saharan Africa, and in Ghana it has caused severe land degradation, water pollution, and irreversible forest loss, much of it on former farmland and in the country's cocoa-growing regions.
+This project studies these dynamics in the shift from agriculture to **artisanal gold mining** — known in Ghana as _galamsey_. Artisanal mining employs an estimated 45 million households in Sub-Saharan Africa, and in Ghana it has caused severe land degradation, water pollution, and irreversible forest loss, much of it on former farmland and in the country's cocoa-growing regions.
 
 We ask two questions:
 
