@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "My latest academic CV.",
+          description: "Here you&#39;ll find my latest CV. Click on the button to the right to download it.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/tillmeissner.github.io/cv/";
@@ -1057,7 +1057,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/tillmeissner.github.io/assets/pdf/TillMeissner_CV_2026_academic.pdf", "_blank");
+          window.open("/tillmeissner.github.io/assets/pdf/TillMeissner_CV_2025_other.pdf", "_blank");
         },
       },{
         id: 'social-email',
