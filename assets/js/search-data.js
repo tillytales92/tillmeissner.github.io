@@ -1037,6 +1037,11 @@ ninja.data = [{
           description: "An interactive dashboard tracking urbanization trends across Sub-Saharan Africa.",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/urban_africa_growth/";
+            },},{id: "teachings-business-in-society-msc-in-finance",
+          title: 'Business in Society (MSc in Finance)',
+          description: "Teaching Assistant for Business in Society in the MSc in Finance at ESADE Business School, Barcelona (Autumn 2026). Leading seminar discussions and grading case-study assignments on CSR, sustainability, and the financial sector&#39;s role in financing sustainable investment and social enterprises.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/tillmeissner.github.io/teachings/esade-business-in-society-2026-2027/";
             },},{id: "teachings-contemporary-europe-gy-103",
           title: 'Contemporary Europe (GY 103)',
           description: "Graduate Teaching Assistant for Block A: The Political Economy of European Integration. Taught 4 seminar groups across 9 classes in Autumn Term 2023/24 at LSE.",
