@@ -2,7 +2,7 @@
 layout: page
 title: "Golden Traps? Artisanal Mining in Ghana"
 description: Self-reinforcing dynamics in the shift from agriculture to illegal artisanal gold mining (galamsey), studied with remote sensing and a structural model of land use
-img: assets/img/galamsey.jpg
+img: assets/img/galamsey_map.jpg
 importance: 1
 category: work
 ---
@@ -11,8 +11,11 @@ category: work
 
 <div class="row justify-content-sm-center mt-3">
   <div class="col-sm-12">
-    {% include figure.liquid loading="eager" path="assets/img/galamsey.jpg" title="Galamsey mining pits next to forest in Ghana" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/galamsey_map.jpg" title="Detected mining extent in 2017 and 2024" class="img-fluid rounded z-depth-1" %}
   </div>
+</div>
+<div class="caption">
+  Mining extent detected by our classifier in 2017 (purple) and 2024 (red), with true-colour satellite imagery of the same area in 2017 and 2024 (right).
 </div>
 
 <div class="mt-3 mb-4">
