@@ -2,7 +2,6 @@
 layout: book-review
 title: Gegenwartsbewältigung
 author: Max Czollek
-cover: assets/img/book_covers/gegenwartsbewaltigung.jpg
 isbn: 9783446267725
 date: 2021-07-01
 finished: 2021-07-01

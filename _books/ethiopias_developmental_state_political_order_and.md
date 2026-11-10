@@ -2,7 +2,6 @@
 layout: book-review
 title: "Ethiopia’s ‘Developmental State’: Political Order and Distributive Crisis (African Studies, Series Number 168)"
 author: Tom Lavers
-cover: assets/img/book_covers/ethiopias_developmental_state_political_order_and.jpg
 isbn: 9781009428293
 date: 2025-02-27
 finished: 2025-02-27

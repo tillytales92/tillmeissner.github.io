@@ -2,7 +2,6 @@
 layout: book-review
 title: Die Angst des weissen Mannes
 author: Peter Scholl-Latour
-cover: assets/img/book_covers/die_angst_des_weissen_mannes.jpg
 isbn: 9783549073315
 date: 2012-05-01
 finished: 2012-05-01

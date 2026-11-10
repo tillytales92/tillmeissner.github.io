@@ -2,7 +2,6 @@
 layout: book-review
 title: "Unsere Welt neu denken: Eine Einladung"
 author: Maja Göpel
-cover: assets/img/book_covers/unsere_welt_neu_denken_eine_einladung.jpg
 date: 2022-01-07
 finished: 2022-01-07
 released: 2020
