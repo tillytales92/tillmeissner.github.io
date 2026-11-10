@@ -1088,7 +1088,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/linkedin.com/in/till-arne-meissner", "_blank");
+          window.open("https://www.linkedin.com/in/till-meissner", "_blank");
         },
       },{
       id: 'light-theme',
