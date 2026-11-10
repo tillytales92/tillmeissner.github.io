@@ -1065,6 +1065,16 @@ ninja.data = [{
           description: "Graduate Teaching Assistant for the Applied Quantitative Methods module (Winter Term 2024/25). Delivered 4 groups of lab seminars covering core statistical concepts and methods using STATA, R, and Excel.",
           section: "Teachings",handler: () => {
               window.location.href = "/tillmeissner.github.io/teachings/gy140-2024-2025/";
+            },},{id: "travels-chile",
+          title: 'Chile',
+          description: "",
+          section: "Travels",handler: () => {
+              window.location.href = "/tillmeissner.github.io/travel/chile-2026/";
+            },},{id: "travels-armenia",
+          title: 'Armenia',
+          description: "",
+          section: "Travels",handler: () => {
+              window.location.href = "/tillmeissner.github.io/travel/armenia-2026/";
             },},{
         id: 'social-cv',
         title: 'CV',
