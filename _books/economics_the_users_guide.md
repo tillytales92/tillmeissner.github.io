@@ -8,5 +8,6 @@ date: 2021-06-01
 finished: 2021-06-01
 released: 2014
 stars: 5
+shelf: economics
 status: Finished
 ---

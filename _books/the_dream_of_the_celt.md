@@ -8,5 +8,6 @@ date: 2022-09-08
 finished: 2022-09-08
 released: 2010
 stars: 4
+shelf: novels
 status: Finished
 ---

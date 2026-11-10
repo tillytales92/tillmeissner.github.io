@@ -8,5 +8,6 @@ date: 2013-01-01
 finished: 2013-01-01
 released: 1952
 stars: 4
+shelf: novels
 status: Finished
 ---

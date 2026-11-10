@@ -7,5 +7,6 @@ isbn: 9780195311457
 date: 2017-08-22
 released: 2007
 stars: 4
+shelf: development
 status: Finished
 ---

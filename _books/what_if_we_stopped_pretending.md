@@ -6,5 +6,6 @@ isbn: 9780008434045
 date: 2025-06-05
 finished: 2025-06-05
 released: 2019
+shelf: politics
 status: Finished
 ---

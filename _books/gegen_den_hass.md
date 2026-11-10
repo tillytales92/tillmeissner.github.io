@@ -8,5 +8,6 @@ date: 2020-07-01
 finished: 2020-07-01
 released: 2016
 stars: 3
+shelf: politics
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2020-09-01
 finished: 2020-09-01
 released: 1988
 stars: 2
+shelf: novels
 status: Finished
 ---

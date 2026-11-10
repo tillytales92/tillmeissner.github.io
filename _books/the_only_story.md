@@ -8,5 +8,6 @@ date: 2023-02-20
 finished: 2023-02-20
 released: 2018
 stars: 3
+shelf: novels
 status: Finished
 ---

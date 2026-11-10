@@ -7,5 +7,6 @@ isbn: 9782848765020
 date: 2021-08-25
 released: 2016
 stars: 4
+shelf: development
 status: Finished
 ---

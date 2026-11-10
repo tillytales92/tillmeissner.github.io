@@ -7,5 +7,6 @@ date: 2023-12-01
 finished: 2023-12-01
 released: 2016
 stars: 4
+shelf: memoir
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2021-08-22
 finished: 2021-08-22
 released: 2021
 stars: 5
+shelf: politics
 status: Finished
 ---

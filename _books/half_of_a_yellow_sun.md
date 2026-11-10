@@ -10,6 +10,7 @@ date: 2017-01-12
 finished: 2017-01-12
 released: 2006
 stars: 5
+shelf: novels
 status: Finished
 ---
 

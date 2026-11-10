@@ -8,5 +8,6 @@ date: 2017-07-01
 finished: 2017-07-01
 released: 1990
 stars: 4
+shelf: novels
 status: Finished
 ---

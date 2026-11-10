@@ -8,5 +8,6 @@ date: 2009-01-01
 finished: 2009-01-01
 released: 1954
 stars: 4
+shelf: novels
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2022-01-01
 finished: 2022-01-01
 released: 2021
 stars: 4
+shelf: ideas
 status: Finished
 ---

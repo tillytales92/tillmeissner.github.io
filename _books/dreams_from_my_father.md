@@ -10,6 +10,7 @@ date: 2022-04-27
 finished: 2022-04-27
 released: 1995
 stars: 5
+shelf: memoir
 status: Finished
 ---
 

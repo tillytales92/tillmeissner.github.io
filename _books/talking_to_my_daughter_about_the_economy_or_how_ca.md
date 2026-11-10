@@ -8,5 +8,6 @@ date: 2022-10-22
 finished: 2022-10-22
 released: 2013
 stars: 5
+shelf: economics
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2025-03-05
 finished: 2025-03-05
 released: 2007
 stars: 4
+shelf: politics
 status: Finished
 ---

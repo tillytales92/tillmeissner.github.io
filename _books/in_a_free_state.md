@@ -8,5 +8,6 @@ date: 2022-04-03
 finished: 2022-04-03
 released: 1971
 stars: 3
+shelf: novels
 status: Finished
 ---

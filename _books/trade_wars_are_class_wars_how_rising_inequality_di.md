@@ -8,5 +8,6 @@ date: 2023-07-25
 finished: 2023-07-25
 released: 2020
 stars: 4
+shelf: economics
 status: Finished
 ---

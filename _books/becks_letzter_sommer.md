@@ -8,5 +8,6 @@ date: 2025-05-26
 finished: 2025-05-26
 released: 2008
 stars: 4
+shelf: novels
 status: Finished
 ---

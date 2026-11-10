@@ -7,5 +7,6 @@ isbn: 9780571207763
 date: 2017-01-09
 released: 2000
 stars: 5
+shelf: novels
 status: Finished
 ---

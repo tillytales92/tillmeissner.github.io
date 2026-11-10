@@ -8,5 +8,6 @@ date: 2024-01-26
 finished: 2024-01-26
 released: 1986
 stars: 4
+shelf: memoir
 status: Finished
 ---

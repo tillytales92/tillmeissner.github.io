@@ -1,0 +1,31 @@
+<figure class="cover">
+  <a class="cover-link" href="{{ include.item.url | relative_url }}">
+    {% if include.item.cover %}
+      <img alt="{{ include.item.title }} cover" src="{{ include.item.cover | relative_url }}" style="height:200px" loading="lazy">
+    {% else %}
+      {% assign short_title = include.item.title | split: ':' | first | split: ' (' | first %}
+      <div class="text-cover" title="{{ include.item.title }}">
+        <span class="text-cover-title">{{ short_title }}</span>
+        <span class="text-cover-author">{{ include.item.author }}</span>
+      </div>
+    {% endif %}
+    {% if include.item.stars %}
+      {% assign stars = include.item.stars | plus: 0 | round %}
+      {% if stars == 5 %}
+        <figcaption class="loved">Loved it</figcaption>
+      {% elsif stars == 4 %}
+        <figcaption class="liked">Liked it</figcaption>
+      {% elsif stars == 3 %}
+        <figcaption class="didnt-mind">Didn't mind it</figcaption>
+      {% elsif stars == 2 %}
+        <figcaption class="disliked">Disliked it</figcaption>
+      {% elsif stars == 1 %}
+        <figcaption class="hated">Hated it</figcaption>
+      {% else %}
+        <figcaption class="finished">Finished</figcaption>
+      {% endif %}
+    {% else %}
+      <figcaption class="finished">Finished</figcaption>
+    {% endif %}
+  </a>
+</figure>

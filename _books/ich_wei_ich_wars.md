@@ -8,5 +8,6 @@ date: 2023-12-30
 finished: 2023-12-30
 released: 2012
 stars: 4
+shelf: memoir
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2022-03-30
 finished: 2022-03-30
 released: 1941
 stars: 4
+shelf: politics
 status: Finished
 ---

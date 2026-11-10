@@ -8,5 +8,6 @@ date: 2022-10-20
 finished: 2022-10-20
 released: 2006
 stars: 4
+shelf: politics
 status: Finished
 ---

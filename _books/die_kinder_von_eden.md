@@ -8,5 +8,6 @@ date: 2007-01-01
 finished: 2007-01-01
 released: 1993
 stars: 4
+shelf: novels
 status: Finished
 ---

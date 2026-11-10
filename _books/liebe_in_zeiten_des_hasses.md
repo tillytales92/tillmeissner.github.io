@@ -7,5 +7,6 @@ date: 2026-11-10
 finished: 2026-11-10
 released: 2021
 stars: 3.5
+shelf: history
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2024-08-22
 finished: 2024-08-22
 released: 2014
 stars: 4
+shelf: novels
 status: Finished
 ---

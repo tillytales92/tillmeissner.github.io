@@ -8,5 +8,6 @@ date: 2024-08-30
 finished: 2024-08-30
 released: 1933
 stars: 4
+shelf: memoir
 status: Finished
 ---

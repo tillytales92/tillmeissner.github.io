@@ -7,5 +7,6 @@ date: 2021-03-01
 finished: 2021-03-01
 released: 2015
 stars: 4
+shelf: politics
 status: Finished
 ---

@@ -7,5 +7,6 @@ date: 2016-10-01
 finished: 2016-10-01
 released: 2013
 stars: 5
+shelf: novels
 status: Finished
 ---

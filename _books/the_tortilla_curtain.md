@@ -7,5 +7,6 @@ date: 2016-04-01
 finished: 2016-04-01
 released: 1995
 stars: 3
+shelf: novels
 status: Finished
 ---

@@ -7,5 +7,6 @@ date: 2022-01-10
 finished: 2022-01-10
 released: 2018
 stars: 3
+shelf: ideas
 status: Finished
 ---

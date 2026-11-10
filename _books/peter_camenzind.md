@@ -8,5 +8,6 @@ date: 2014-07-01
 finished: 2014-07-01
 released: 1904
 stars: 4
+shelf: novels
 status: Finished
 ---

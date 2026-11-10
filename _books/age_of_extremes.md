@@ -11,6 +11,7 @@ date: 2023-05-03
 finished: 2023-05-03
 released: 1994
 stars: 5
+shelf: history
 status: Finished
 ---
 

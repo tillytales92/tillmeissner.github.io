@@ -7,5 +7,6 @@ isbn: 9783841213914
 date: 2021-08-10
 released: 2017
 stars: 4
+shelf: memoir
 status: Finished
 ---

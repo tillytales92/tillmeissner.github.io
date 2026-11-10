@@ -8,5 +8,6 @@ date: 2021-08-10
 finished: 2021-08-10
 released: 2005
 stars: 5
+shelf: novels
 status: Finished
 ---

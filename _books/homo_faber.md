@@ -8,5 +8,6 @@ date: 2017-10-23
 finished: 2017-10-23
 released: 1957
 stars: 4
+shelf: novels
 status: Finished
 ---

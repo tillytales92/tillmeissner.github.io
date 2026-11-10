@@ -10,6 +10,7 @@ date: 2025-02-09
 finished: 2025-02-09
 released: 2009
 stars: 5
+shelf: novels
 status: Finished
 ---
 

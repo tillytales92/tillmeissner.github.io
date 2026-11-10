@@ -8,5 +8,6 @@ date: 2019-11-01
 finished: 2019-11-01
 released: 2015
 stars: 4
+shelf: novels
 status: Finished
 ---

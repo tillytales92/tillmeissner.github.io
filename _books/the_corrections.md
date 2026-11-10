@@ -8,5 +8,6 @@ date: 2024-12-19
 finished: 2024-12-19
 released: 2001
 stars: 4
+shelf: novels
 status: Finished
 ---

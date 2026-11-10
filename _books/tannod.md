@@ -8,5 +8,6 @@ date: 2011-01-01
 finished: 2011-01-01
 released: 2006
 stars: 4
+shelf: novels
 status: Finished
 ---

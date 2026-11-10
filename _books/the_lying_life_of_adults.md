@@ -8,5 +8,6 @@ date: 2025-11-14
 finished: 2025-11-14
 released: 2019
 stars: 4
+shelf: novels
 status: Finished
 ---

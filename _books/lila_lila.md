@@ -7,5 +7,6 @@ isbn: 9783257234695
 date: 2021-08-10
 released: 2004
 stars: 4
+shelf: novels
 status: Finished
 ---

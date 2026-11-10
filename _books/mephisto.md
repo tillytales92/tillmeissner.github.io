@@ -8,5 +8,6 @@ date: 2010-01-13
 finished: 2010-01-13
 released: 1936
 stars: 4
+shelf: novels
 status: Finished
 ---

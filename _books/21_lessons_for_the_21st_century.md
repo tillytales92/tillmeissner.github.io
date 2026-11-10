@@ -8,5 +8,6 @@ date: 2020-06-01
 finished: 2020-06-01
 released: 2018
 stars: 4
+shelf: history
 status: Finished
 ---

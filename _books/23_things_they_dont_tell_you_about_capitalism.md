@@ -8,5 +8,6 @@ date: 2021-05-01
 finished: 2021-05-01
 released: 2010
 stars: 4
+shelf: economics
 status: Finished
 ---

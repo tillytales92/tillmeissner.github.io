@@ -6,5 +6,6 @@ cover: assets/img/book_covers/der_schatten_des_windes.jpg
 date: 2022-01-31
 released: 2001
 stars: 4
+shelf: novels
 status: Finished
 ---

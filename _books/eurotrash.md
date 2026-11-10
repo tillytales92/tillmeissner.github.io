@@ -8,5 +8,6 @@ date: 2025-04-17
 finished: 2025-04-17
 released: 2021
 stars: 4
+shelf: novels
 status: Finished
 ---

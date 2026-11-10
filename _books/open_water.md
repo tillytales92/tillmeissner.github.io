@@ -8,5 +8,6 @@ date: 2022-02-20
 finished: 2022-02-20
 released: 2021
 stars: 4
+shelf: novels
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2019-06-01
 finished: 2019-06-01
 released: 2017
 stars: 4
+shelf: politics
 status: Finished
 ---

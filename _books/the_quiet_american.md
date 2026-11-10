@@ -8,5 +8,6 @@ date: 2022-08-14
 finished: 2022-08-14
 released: 1955
 stars: 4
+shelf: novels
 status: Finished
 ---

@@ -8,5 +8,6 @@ date: 2022-12-12
 finished: 2022-12-12
 released: 2017
 stars: 4
+shelf: economics
 status: Finished
 ---

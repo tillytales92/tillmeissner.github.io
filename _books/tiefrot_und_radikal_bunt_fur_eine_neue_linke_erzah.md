@@ -6,5 +6,6 @@ isbn: 9783960541936
 date: 2023-12-17
 released: 2019
 stars: 4
+shelf: politics
 status: Finished
 ---

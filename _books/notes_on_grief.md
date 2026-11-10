@@ -8,5 +8,6 @@ date: 2021-07-26
 finished: 2021-07-26
 released: 2021
 stars: 4
+shelf: memoir
 status: Finished
 ---

@@ -7,5 +7,6 @@ date: 2017-02-05
 finished: 2017-02-05
 released: 2003
 stars: 5
+shelf: novels
 status: Finished
 ---

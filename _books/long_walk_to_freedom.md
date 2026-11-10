@@ -8,5 +8,6 @@ date: 2016-12-01
 finished: 2016-12-01
 released: 1994
 stars: 5
+shelf: memoir
 status: Finished
 ---

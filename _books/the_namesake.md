@@ -8,5 +8,6 @@ date: 2020-11-01
 finished: 2020-11-01
 released: 2003
 stars: 4
+shelf: novels
 status: Finished
 ---

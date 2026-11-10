@@ -8,5 +8,6 @@ date: 2022-08-23
 finished: 2022-08-23
 released: 1973
 stars: 4
+shelf: novels
 status: Finished
 ---

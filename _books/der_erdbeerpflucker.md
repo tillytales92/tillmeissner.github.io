@@ -8,5 +8,6 @@ date: 2008-01-01
 finished: 2008-01-01
 released: 2003
 stars: 3
+shelf: novels
 status: Finished
 ---

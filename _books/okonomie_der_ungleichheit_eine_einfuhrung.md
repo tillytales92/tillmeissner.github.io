@@ -6,5 +6,6 @@ isbn: 9783406698477
 date: 2021-08-26
 released: 1997
 stars: 4
+shelf: economics
 status: Finished
 ---

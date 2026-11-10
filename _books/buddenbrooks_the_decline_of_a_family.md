@@ -8,5 +8,6 @@ date: 2012-01-01
 finished: 2012-01-01
 released: 1901
 stars: 3
+shelf: novels
 status: Finished
 ---

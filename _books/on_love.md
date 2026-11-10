@@ -8,5 +8,6 @@ date: 2023-05-30
 finished: 2023-05-30
 released: 1993
 stars: 5
+shelf: novels
 status: Finished
 ---

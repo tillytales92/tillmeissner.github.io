@@ -11,6 +11,7 @@ date: 2025-05-15
 finished: 2025-05-15
 released: 2016
 stars: 5
+shelf: novels
 status: Finished
 ---
 

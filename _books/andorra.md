@@ -8,5 +8,6 @@ date: 2009-01-01
 finished: 2009-01-01
 released: 1961
 stars: 4
+shelf: plays
 status: Finished
 ---

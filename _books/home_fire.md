@@ -8,5 +8,6 @@ date: 2022-12-27
 finished: 2022-12-27
 released: 2017
 stars: 4
+shelf: novels
 status: Finished
 ---

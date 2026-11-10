@@ -8,5 +8,6 @@ date: 2019-12-01
 finished: 2019-12-01
 released: 1844
 stars: 4
+shelf: plays
 status: Finished
 ---

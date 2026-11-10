@@ -7,5 +7,6 @@ isbn: 9780198814986
 date: 2022-01-31
 released: 2019
 stars: 4
+shelf: development
 status: Finished
 ---

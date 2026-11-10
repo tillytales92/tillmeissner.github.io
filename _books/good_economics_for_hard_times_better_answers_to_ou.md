@@ -7,5 +7,6 @@ date: 2021-02-01
 finished: 2021-02-01
 released: 2019
 stars: 4
+shelf: economics
 status: Finished
 ---

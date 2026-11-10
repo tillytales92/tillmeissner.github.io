@@ -8,5 +8,6 @@ date: 2008-01-01
 finished: 2008-01-01
 released: 1912
 stars: 4
+shelf: novels
 status: Finished
 ---
