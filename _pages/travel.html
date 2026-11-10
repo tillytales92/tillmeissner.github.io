@@ -2,24 +2,31 @@
 layout: page
 title: travel
 permalink: /travel/
-description: Places I have lived, worked and travelled. Click a country for details.
+description: A photobook of my travels.
 nav: false
-map: true
 ---
 
-{% include travel_map.liquid %}
-
-{% assign groups = "lived:Lived,work:Work & fieldwork,visit:Visited" | split: "," %}
-{% for g in groups %}
-  {% assign key = g | split: ":" | first %}
-  {% assign label = g | split: ":" | last %}
-  {% assign places = site.data.travel | where: "type", key | sort: "country" %}
-  {% if places.size > 0 %}
-    <h3 class="mt-4">{{ label }}</h3>
-    <ul class="travel-list">
-      {% for p in places %}
-        <li><strong>{{ p.country }}</strong>{% if p.trips %} — {{ p.trips | join: "; " }}{% endif %}</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+{% assign trips = site.travels | sort: 'date' | reverse %} {% assign by_year = trips | group_by_exp: 'trip', "trip.date | date: '%Y'" %} {% for year
+in by_year %}
+<h2 class="trip-year">{{ year.name }}</h2>
+<div class="trip-grid">
+  {% for trip in year.items %}
+  <a class="trip-card" href="{{ trip.url | relative_url }}">
+    {% if trip.cover %}
+    <img class="trip-cover" src="{{ trip.cover | relative_url }}" alt="{{ trip.title }}" loading="lazy" />
+    {% else %}
+    <div class="trip-cover-placeholder">{{ trip.title }}</div>
+    {% endif %}
+    <div class="trip-card-body">
+      <div class="trip-card-title">{{ trip.title }}</div>
+      <div class="trip-card-meta">
+        {% if trip.when %}{{ trip.when }}{% else %}{{ trip.date | date: '%B %Y' }}{% endif %} {% if trip.places %} · {{ trip.places }}{% endif %}
+      </div>
+      {% if trip.summary %}
+      <p class="mb-0 mt-2">{{ trip.summary }}</p>
+      {% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</div>
 {% endfor %}

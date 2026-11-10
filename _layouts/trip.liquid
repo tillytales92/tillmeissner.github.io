@@ -1,0 +1,26 @@
+---
+layout: page
+---
+<p class="trip-meta">
+  {% if page.when %}{{ page.when }}{% else %}{{ page.date | date: '%B %Y' }}{% endif %}
+  {% if page.places %} · {{ page.places }}{% endif %}
+</p>
+
+{{ content }}
+
+{% if page.photos and page.photos.size > 0 %}
+  <div class="trip-gallery">
+    {% for photo in page.photos %}
+      <figure>
+        <a href="{{ photo.src | relative_url }}" target="_blank" rel="noopener">
+          <img src="{{ photo.src | relative_url }}" alt="{{ photo.caption | default: page.title }}" loading="lazy">
+        </a>
+        {% if photo.caption %}
+          <figcaption>{{ photo.caption }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endfor %}
+  </div>
+{% endif %}
+
+<p><a href="{{ '/travel/' | relative_url }}">← All travels</a></p>
