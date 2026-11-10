@@ -18,23 +18,23 @@ As Teaching Assistant, I support class discussions and exercises, grade students
 
 ## Course Structure
 
-| Session | Topic                                                             | Format                             |
-| ------- | ----------------------------------------------------------------- | ---------------------------------- |
-| 1       | Introduction: the role of business in society                     | Lecture & discussion               |
-| 2       | Sustainability inside finance                                     | Case: forced overtime in a Bangladeshi garment factory · systems mapping |
-| 3       | Stakeholder analysis and engagement                               | Royal Dutch/Shell in Nigeria stakeholder simulation |
-| 4       | Managing common pool resources                                    | MIT Fishbanks simulation           |
-| 5       | Socially responsible investment and impact investment             | Exercise on impact measurement     |
-| 6       | Carbon accounting and carbon markets                              | FT Climate Game                    |
-| 7       | Social business models and their financing                        | Case · group assignment            |
-| 8       | Mentoring for final projects                                      | Group mentoring                    |
-| 9       | Final project presentations                                       | Group presentations & peer grading |
+| Session | Topic                                                 | Format                                                                   |
+| ------- | ----------------------------------------------------- | ------------------------------------------------------------------------ |
+| 1       | Introduction: the role of business in society         | Lecture & discussion                                                     |
+| 2       | Sustainability inside finance                         | Case: forced overtime in a Bangladeshi garment factory · systems mapping |
+| 3       | Stakeholder analysis and engagement                   | Royal Dutch/Shell in Nigeria stakeholder simulation                      |
+| 4       | Managing common pool resources                        | MIT Fishbanks simulation                                                 |
+| 5       | Socially responsible investment and impact investment | Exercise on impact measurement                                           |
+| 6       | Carbon accounting and carbon markets                  | FT Climate Game                                                          |
+| 7       | Social business models and their financing            | Case · group assignment                                                  |
+| 8       | Mentoring for final projects                          | Group mentoring                                                          |
+| 9       | Final project presentations                           | Group presentations & peer grading                                       |
 
 ## Assessment
 
-| Component                                               | Weight |
-| ------------------------------------------------------- | ------ |
-| Class participation (incl. peer evaluation of groupwork) | 30%    |
-| Individual reflection pieces (Sessions 1–6)             | 20%    |
-| Written group assignment (after Session 7)              | 10%    |
+| Component                                                                                          | Weight |
+| -------------------------------------------------------------------------------------------------- | ------ |
+| Class participation (incl. peer evaluation of groupwork)                                           | 30%    |
+| Individual reflection pieces (Sessions 1–6)                                                        | 20%    |
+| Written group assignment (after Session 7)                                                         | 10%    |
 | Final presentation: business and financing concept for a real company active in CSR/sustainability | 40%    |
