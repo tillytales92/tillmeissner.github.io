@@ -39,16 +39,30 @@
 
       var map = L.map(el, {
         scrollWheelZoom: false,
-        worldCopyJump: true,
         minZoom: 1,
-        maxBounds: [[-70, -200], [85, 200]],
+        maxZoom: 6,
+        zoomSnap: 0.25,
         attributionControl: false,
-      }).fitBounds([[-55, -170], [80, 190]]);
+      });
+      map.fitBounds([[-38, -125], [70, 150]]);
 
       fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
         .then(function (r) { return r.json(); })
         .then(function (world) {
           var countries = topojson.feature(world, world.objects.countries);
+          // drop Antarctica and stop polygons that cross the date line from drawing stripes across the map
+          countries.features = countries.features.filter(function (f) { return f.id !== '010'; });
+          countries.features.forEach(function (f) {
+            var polys = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
+            polys.forEach(function (poly) {
+              poly.forEach(function (ring) {
+                var lons = ring.map(function (c) { return c[0]; });
+                if (Math.max.apply(null, lons) - Math.min.apply(null, lons) > 180) {
+                  ring.forEach(function (c) { if (c[0] < 0) c[0] += 360; });
+                }
+              });
+            });
+          });
           L.geoJSON(countries, {
             style: function (f) {
               var p = places[f.id];
