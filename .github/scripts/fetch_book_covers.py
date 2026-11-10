@@ -26,7 +26,8 @@ for path in sorted(glob.glob("_books/*.md")):
     if cover and os.path.exists(cover):
         continue
     title, author, isbn, olid = (field(text, k) for k in ("title", "author", "isbn", "olid"))
-    short_title = re.split(r"[:(]", title)[0].strip()
+    short_title = re.split(r"[:(]|\. ", title)[0].strip()
+    short_title = re.sub(r"\s*\((German|Spanish|English) Edition\)", "", short_title)
     img = None
     if isbn:
         img = get(f"https://covers.openlibrary.org/b/isbn/{isbn}-L.jpg?default=false", True)
@@ -54,6 +55,26 @@ for path in sorted(glob.glob("_books/*.md")):
                 img = get(url, True)
                 if image_ok(img):
                     break
+    if not image_ok(img):
+        # broad fallbacks: free-text queries without field restrictions
+        for q in (f"{short_title} {author}", short_title):
+            res = get("https://openlibrary.org/search.json?" + urllib.parse.urlencode({"q": q, "limit": 10, "fields": "cover_i"})) or {}
+            for doc in res.get("docs", []):
+                if doc.get("cover_i"):
+                    img = get(f"https://covers.openlibrary.org/b/id/{doc['cover_i']}-L.jpg?default=false", True)
+                    if image_ok(img):
+                        break
+            if image_ok(img):
+                break
+            res = get("https://www.googleapis.com/books/v1/volumes?" + urllib.parse.urlencode({"q": q, "maxResults": 5})) or {}
+            for item in res.get("items", []):
+                url = item.get("volumeInfo", {}).get("imageLinks", {}).get("thumbnail")
+                if url:
+                    img = get(url.replace("http://", "https://").replace("&edge=curl", ""), True)
+                    if image_ok(img):
+                        break
+            if image_ok(img):
+                break
     if not image_ok(img):
         missing.append(title)
         continue
