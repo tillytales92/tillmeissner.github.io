@@ -1009,6 +1009,16 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/tillmeissner.github.io/books/carmen_o_como_me_inicie_en_el_negocio_de_bailar_si/";
+            },},{id: "books-how-to-be-an-anticapitalist-in-the-twenty-first-century",
+          title: 'How to Be an Anticapitalist in the Twenty-First Century',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/how_to_be_an_anticapitalist_in_the_twenty_first_century/";
+            },},{id: "books-liebe-in-zeiten-des-hasses-chronik-eines-gefühls-1929-1939",
+          title: 'Liebe in Zeiten des Hasses: Chronik eines Gefühls 1929–1939',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/tillmeissner.github.io/books/liebe_in_zeiten_des_hasses/";
             },},{id: "news-i-successfully-defended-my-phd-in-economic-geography-at-the-london-school-of-economics-and-political-science-my-supervisor-andrés-rodríguez-posé-kindly-shared-the-news-on-linkedin",
           title: 'I successfully defended my PhD in Economic Geography at the London School of...',
           description: "",
