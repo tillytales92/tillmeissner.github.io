@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a development economist and Research Fellow at the [London School of Economics and Political Science (LSE)](https://www.lse.ac.uk). My research focuses on sustainable development, in particular global value chains, foreign direct investment, special economic zones, artisanal mining, and climate adaptation. To study these questions, I combine **geospatial and remote sensing methods** with **causal inference**.
+I am a development economist and Research Fellow at the [London School of Economics and Political Science (LSE)](https://www.lse.ac.uk). My research focuses on sustainable development, in particular global value chains, foreign direct investment, special economic zones, artisanal mining, and climate adaptation. To study these questions, I combine **geospatial and remote sensing methods** (satellite-based change detection, nighttime lights, and machine-learning classification of satellite imagery) with **causal inference** (difference-in-differences, event studies, panel fixed effects, and matching) and **spatial econometrics**. I also use large language models to build new datasets from text, and firm-level, household and administrative data to link these measures to economic outcomes.
 
 ---
 
