@@ -2,11 +2,18 @@
 layout: page
 title: "Golden Traps? Artisanal Mining in Ghana"
 description: Self-reinforcing dynamics in the shift from agriculture to illegal artisanal gold mining (galamsey), studied with remote sensing and a structural model of land use
+img: assets/img/galamsey.jpg
 importance: 1
 category: work
 ---
 
 **Golden Traps? Self-Reinforcing Dynamics of Artisanal Mining** &nbsp;|&nbsp; with Sreevidya Ayyar, Hemawathy Balarama and Yoshiki Wiskamp &nbsp;|&nbsp; _work in progress_
+
+<div class="row justify-content-sm-center mt-3">
+  <div class="col-sm-12">
+    {% include figure.liquid loading="eager" path="assets/img/galamsey.jpg" title="Galamsey mining pits next to forest in Ghana" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 <div class="mt-3 mb-4">
   <a href="https://rgee-auth-tillam.projects.earthengine.app/view/galamsey-tracker" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Open the Galamsey Tracker</a>
@@ -27,4 +34,10 @@ We assemble a novel dataset combining **remote-sensing data** and **administrati
 
 ## Galamsey Tracker
 
-The [Galamsey Tracker](https://rgee-auth-tillam.projects.earthengine.app/view/galamsey-tracker) is an interactive Google Earth Engine app I built to explore the spread of mining activity across Ghana using satellite imagery.
+The [Galamsey Tracker](https://rgee-auth-tillam.projects.earthengine.app/view/galamsey-tracker) is an interactive Google Earth Engine app I built to show how much of Ghana's gold-mining expansion between 2017 and 2025 has come at the expense of forest, district by district. It combines:
+
+- **Mining extent** from our own Random Forest classifier trained on Google's AlphaEarth satellite embeddings, run annually for 2017–2025 and shown as the cumulative mined area to date.
+- **Forest type** from the [Forest Typology (ForTy) 2020](https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/) map by Google DeepMind, Google Research, WRI and IIASA, which separates primary, naturally regenerating and planted forest from plantations, tree crops and other land.
+- **Protected areas** (mostly forest reserves) from the World Database on Protected Areas.
+
+Users can pick a region or district in the five main galamsey regions (Western, Western North, Ashanti, Central and Eastern), view mining trends and the land types lost to mining, scrub through the years with a slider, and generate animated time-lapses from Sentinel-2 and Landsat imagery (2015–2025).
