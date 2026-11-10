@@ -2,6 +2,7 @@
 layout: book-review
 title: Drive Your Plow Over the Bones of the Dead
 author: Olga Tokarczuk
+cover: assets/img/book_covers/drive_your_plow_over_the_bones_of_the_dead.jpg
 date: 2025-09-03
 finished: 2025-09-03
 released: 2009
