@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/TillMeissner_CV_2025_other.pdf # path to your CV PDF file
+cv_pdf: /assets/pdf/TillMeissner_CV_2026_academic.pdf # path to your CV PDF file
 email: tillam@gmx.de # your email address
 bluesky_url: https://bsky.app/profile/tillytales.bsky.social
 linkedin_username: linkedin.com/in/till-arne-meissner

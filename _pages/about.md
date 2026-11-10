@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Officer · <a href='https://www.lse.ac.uk/geography-and-environment'>Department of Geography & Environment, LSE</a>
+subtitle: Research Fellow · <a href='https://www.lse.ac.uk/geography-and-environment'>Department of Geography & Environment, LSE</a>
 
 profile:
   align: right
@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a development economist and Research Officer at the [London School of Economics and Political Science (LSE)](https://www.lse.ac.uk). My research sits at the intersection of **geospatial and remote sensing methods, causal inference, and development economics**, with a focus on African markets: global value chains, foreign direct investment, special economic zones, artisanal mining, and climate adaptation.
+I am a development economist and Research Fellow at the [London School of Economics and Political Science (LSE)](https://www.lse.ac.uk). My research sits at the intersection of **geospatial and remote sensing methods, causal inference, and development economics**, with a focus on African markets: global value chains, foreign direct investment, special economic zones, artisanal mining, and climate adaptation.
 
 I completed my **PhD in Economic Geography** at LSE in 2025, supervised by Professor Riccardo Crescenzi and Professor Andrés Rodríguez-Pose and funded by a Doctoral Training Partnership scholarship from the **Economic and Social Research Council (ESRC)**. My dissertation, _"Essays on Global Value Chains and Economic Development"_, studies the local impacts of global value chain participation in Africa using firm-level, household, geospatial and satellite data. Its papers cover GVCs and firm upgrading in Africa (revise and resubmit, _Journal of African Economies_), **special economic zones** and local economic development in Ethiopia, and FDI, employment and gender equality in Ethiopia. I also hold an **MSc in Local Economic Development** from LSE (Distinction, Best Overall Performance Prize) and a **BA in Philosophy & Economics** from the University of Bayreuth, with exchange semesters at the Université Paris 1 Panthéon-Sorbonne and Kangwon National University in South Korea.
 
