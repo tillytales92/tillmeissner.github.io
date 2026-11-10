@@ -15,7 +15,7 @@ category: work
   </div>
 </div>
 <div class="caption">
-  Mining extent detected by our classifier in 2017 (purple) and 2024 (red), with true-colour satellite imagery of the same area in 2017 and 2024 (right).
+  Mining extent detected by our classifier in 2017 (purple) and 2024 (red), with true-colour satellite imagery of the same area in 2017 and 2024 (right). Awomaso, Ashanti Region.
 </div>
 
 <div class="mt-3 mb-4">
