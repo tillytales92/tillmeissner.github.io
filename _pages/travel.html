@@ -1,0 +1,25 @@
+---
+layout: page
+title: travel
+permalink: /travel/
+description: Places I have lived, worked and travelled. Click a country for details.
+nav: false
+map: true
+---
+
+{% include travel_map.liquid %}
+
+{% assign groups = "lived:Lived,work:Work & fieldwork,visit:Visited" | split: "," %}
+{% for g in groups %}
+  {% assign key = g | split: ":" | first %}
+  {% assign label = g | split: ":" | last %}
+  {% assign places = site.data.travel | where: "type", key | sort: "country" %}
+  {% if places.size > 0 %}
+    <h3 class="mt-4">{{ label }}</h3>
+    <ul class="travel-list">
+      {% for p in places %}
+        <li><strong>{{ p.country }}</strong>{% if p.trips %} — {{ p.trips | join: "; " }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}

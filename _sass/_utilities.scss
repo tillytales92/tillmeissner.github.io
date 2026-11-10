@@ -672,3 +672,58 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Travel map
+
+#travel-map {
+  height: 460px;
+  border-radius: 8px;
+  margin: 1rem 0 0.5rem;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+}
+
+.travel-stats {
+  font-size: 1.05rem;
+}
+
+.travel-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+
+  .swatch {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-right: 0.35rem;
+    vertical-align: -0.1rem;
+    border-radius: 2px;
+    background: var(--global-theme-color);
+  }
+
+  .swatch.lived {
+    opacity: 0.85;
+  }
+
+  .swatch.work {
+    opacity: 0.6;
+  }
+
+  .swatch.visit {
+    opacity: 0.35;
+  }
+}
+
+.travel-trips {
+  margin: 0.35rem 0 0;
+  padding-left: 1.1rem;
+}
+
+@media (max-width: 576px) {
+  #travel-map {
+    height: 300px;
+  }
+}

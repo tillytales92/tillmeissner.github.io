@@ -1,0 +1,79 @@
+<div class="travel-stats">
+  {% assign lived = site.data.travel | where: 'type', 'lived' %}
+  <strong>{{ site.data.travel.size }}</strong> countries · lived in <strong>{{ lived.size }}</strong>
+</div>
+
+<div id="travel-map"></div>
+
+<div class="travel-legend">
+  <span><i class="swatch lived"></i> Lived</span>
+  <span><i class="swatch work"></i> Work &amp; fieldwork</span>
+  <span><i class="swatch visit"></i> Visited</span>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+<script>
+  (function () {
+    var places = {
+      {% for p in site.data.travel %}
+        {{ p.iso | jsonify }}: { country: {{ p.country | jsonify }}, type: {{ p.type | jsonify }}, trips: {{ p.trips | jsonify }} }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    };
+
+    function cssVar(name, fallback) {
+      var v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+      return v || fallback;
+    }
+
+    function init() {
+      var el = document.getElementById('travel-map');
+      if (!el || typeof L === 'undefined' || typeof topojson === 'undefined') return;
+
+      var accent = cssVar('--global-theme-color', '#b509ac');
+      var land = cssVar('--global-divider-color', '#dddddd');
+      var colours = { lived: 0.85, work: 0.6, visit: 0.35 };
+
+      var map = L.map(el, {
+        scrollWheelZoom: false,
+        worldCopyJump: true,
+        minZoom: 1,
+        maxBounds: [[-70, -200], [85, 200]],
+        attributionControl: false,
+      }).fitBounds([[-55, -170], [80, 190]]);
+
+      fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
+        .then(function (r) { return r.json(); })
+        .then(function (world) {
+          var countries = topojson.feature(world, world.objects.countries);
+          L.geoJSON(countries, {
+            style: function (f) {
+              var p = places[f.id];
+              return {
+                color: cssVar('--global-bg-color', '#ffffff'),
+                weight: 0.6,
+                fillColor: p ? accent : land,
+                fillOpacity: p ? colours[p.type] || 0.5 : 0.6,
+              };
+            },
+            onEachFeature: function (f, layer) {
+              var p = places[f.id];
+              var name = p ? p.country : f.properties.name;
+              layer.bindTooltip(name, { sticky: true });
+              if (p) {
+                var items = (p.trips || []).map(function (t) { return '<li>' + t + '</li>'; }).join('');
+                layer.bindPopup('<strong>' + p.country + '</strong>' + (items ? '<ul class="travel-trips">' + items + '</ul>' : ''));
+                layer.on('mouseover', function () { layer.setStyle({ weight: 1.5 }); });
+                layer.on('mouseout', function () { layer.setStyle({ weight: 0.6 }); });
+              }
+            },
+          }).addTo(map);
+        });
+    }
+
+    if (document.readyState === 'complete') {
+      init();
+    } else {
+      window.addEventListener('load', init);
+    }
+  })();
+</script>

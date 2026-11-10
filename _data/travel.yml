@@ -1,0 +1,50 @@
+# Countries shown on the travel map (/travel/).
+# iso: ISO 3166-1 numeric code (3 digits, as a string) – used to shade the country.
+# type: lived | work | visit   (sets the shade on the map)
+# trips: one line per stay; shown when the country is clicked.
+- country: Germany
+  iso: "276"
+  type: lived
+  trips:
+    - "Home country"
+- country: United Kingdom
+  iso: "826"
+  type: lived
+  trips:
+    - "London, 2018–2025 · MSc and PhD at LSE"
+- country: Spain
+  iso: "724"
+  type: lived
+  trips:
+    - "Barcelona, since 2025"
+- country: Ghana
+  iso: "288"
+  type: lived
+  trips:
+    - "2011–2012 · Weltwärts civil service"
+    - "Accra, 2016 · internship at ACET"
+- country: South Korea
+  iso: "410"
+  type: lived
+  trips:
+    - "2014–2015 · exchange semester, Kangwon National University"
+- country: France
+  iso: "250"
+  type: lived
+  trips:
+    - "Paris, 2015 · Erasmus semester, Paris 1 Panthéon-Sorbonne"
+- country: Ethiopia
+  iso: "231"
+  type: work
+  trips:
+    - "Fieldwork"
+- country: Armenia
+  iso: "051"
+  type: visit
+  trips:
+    - "Yerevan, October 2026 · wedding"
+- country: Hungary
+  iso: "348"
+  type: visit
+  trips:
+    - "Budapest, October 2026"
