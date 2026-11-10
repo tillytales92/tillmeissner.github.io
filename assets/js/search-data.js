@@ -1057,7 +1057,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/tillmeissner.github.io/assets/pdf/TillMeissner_CV_2025_other.pdf", "_blank");
+          window.open("/tillmeissner.github.io/assets/pdf/TillMeissner_CV_2026_academic.pdf", "_blank");
         },
       },{
         id: 'social-email',
