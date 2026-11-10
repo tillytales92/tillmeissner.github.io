@@ -44,6 +44,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/tillmeissner.github.io/books/";
               },
+            },{id: "dropdown-travel",
+              title: "travel",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/tillmeissner.github.io/travel/";
+              },
             },{id: "dropdown-blog",
               title: "blog",
               description: "",
