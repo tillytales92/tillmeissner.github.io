@@ -2,6 +2,7 @@
 layout: book-review
 title: Macbeth
 author: William Shakespeare
+cover: assets/img/book_covers/macbeth.jpg
 isbn: 9780743477109
 date: 2011-01-01
 finished: 2011-01-01

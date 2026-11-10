@@ -2,6 +2,7 @@
 layout: book-review
 title: The Tortilla Curtain
 author: T. Coraghessan Boyle
+cover: assets/img/book_covers/the_tortilla_curtain.jpg
 date: 2016-04-01
 finished: 2016-04-01
 released: 1995

@@ -2,6 +2,7 @@
 layout: book-review
 title: Tannöd
 author: Andrea Maria Schenkel
+cover: assets/img/book_covers/tannod.jpg
 isbn: 9783442736737
 date: 2011-01-01
 finished: 2011-01-01

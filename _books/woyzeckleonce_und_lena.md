@@ -2,6 +2,7 @@
 layout: book-review
 title: Woyzeck/Leonce und Lena
 author: Georg Büchner
+cover: assets/img/book_covers/woyzeckleonce_und_lena.jpg
 isbn: 9780844229454
 date: 2009-01-01
 finished: 2009-01-01

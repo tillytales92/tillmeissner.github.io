@@ -2,6 +2,7 @@
 layout: book-review
 title: "Buddenbrooks: The Decline of a Family"
 author: Thomas Mann
+cover: assets/img/book_covers/buddenbrooks_the_decline_of_a_family.jpg
 isbn: 9780679417378
 date: 2012-01-01
 finished: 2012-01-01

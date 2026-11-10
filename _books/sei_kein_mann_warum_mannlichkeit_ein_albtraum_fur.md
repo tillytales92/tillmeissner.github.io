@@ -2,6 +2,7 @@
 layout: book-review
 title: "Sei kein Mann: Warum Männlichkeit ein Albtraum für Jungs ist"
 author: J.J. Bola
+cover: assets/img/book_covers/sei_kein_mann_warum_mannlichkeit_ein_albtraum_fur.jpg
 isbn: 9783446267985
 date: 2021-08-25
 released: 2019

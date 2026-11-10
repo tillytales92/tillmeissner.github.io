@@ -2,6 +2,7 @@
 layout: book-review
 title: Home Fire
 author: Kamila Shamsie
+cover: assets/img/book_covers/home_fire.jpg
 isbn: 9780735217683
 date: 2022-12-27
 finished: 2022-12-27

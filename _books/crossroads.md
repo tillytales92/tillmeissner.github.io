@@ -2,6 +2,7 @@
 layout: book-review
 title: Crossroads
 author: Jonathan Franzen
+cover: assets/img/book_covers/crossroads.jpg
 isbn: 9780374181178
 date: 2023-04-10
 finished: 2023-04-10

@@ -2,6 +2,7 @@
 layout: book-review
 title: On Love
 author: Alain de Botton
+cover: assets/img/book_covers/on_love.jpg
 isbn: 9780802142405
 date: 2023-05-30
 finished: 2023-05-30

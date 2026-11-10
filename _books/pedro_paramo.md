@@ -2,6 +2,7 @@
 layout: book-review
 title: Pedro Páramo
 author: Juan Rulfo
+cover: assets/img/book_covers/pedro_paramo.jpg
 isbn: 9780802133908
 date: 2024-10-13
 finished: 2024-10-13

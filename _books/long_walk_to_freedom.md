@@ -2,6 +2,7 @@
 layout: book-review
 title: Long Walk to Freedom
 author: Nelson Mandela
+cover: assets/img/book_covers/long_walk_to_freedom.jpg
 isbn: 9780316548182
 date: 2016-12-01
 finished: 2016-12-01

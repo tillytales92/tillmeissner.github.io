@@ -2,6 +2,7 @@
 layout: book-review
 title: Song of Solomon
 author: Toni Morrison
+cover: assets/img/book_covers/song_of_solomon.jpg
 isbn: 9781400033423
 date: 2019-11-01
 finished: 2019-11-01

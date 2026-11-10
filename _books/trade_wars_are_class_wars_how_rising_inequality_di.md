@@ -2,6 +2,7 @@
 layout: book-review
 title: "Trade Wars Are Class Wars: How Rising Inequality Distorts the Global Economy and Threatens International Peace"
 author: Matthew C. Klein
+cover: assets/img/book_covers/trade_wars_are_class_wars_how_rising_inequality_di.jpg
 isbn: 9780300244175
 date: 2023-07-25
 finished: 2023-07-25

@@ -2,6 +2,7 @@
 layout: book-review
 title: Peter Camenzind
 author: Hermann Hesse
+cover: assets/img/book_covers/peter_camenzind.jpg
 isbn: 9780312422639
 date: 2014-07-01
 finished: 2014-07-01

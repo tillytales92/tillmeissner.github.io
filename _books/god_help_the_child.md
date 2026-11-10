@@ -2,6 +2,7 @@
 layout: book-review
 title: God Help the Child
 author: Toni Morrison
+cover: assets/img/book_covers/god_help_the_child.jpg
 isbn: 9780307594174
 date: 2019-11-01
 finished: 2019-11-01

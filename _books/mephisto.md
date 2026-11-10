@@ -2,6 +2,7 @@
 layout: book-review
 title: Mephisto
 author: Klaus Mann
+cover: assets/img/book_covers/mephisto.jpg
 isbn: 9780140189186
 date: 2010-01-13
 finished: 2010-01-13

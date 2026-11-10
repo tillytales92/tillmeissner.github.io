@@ -2,6 +2,7 @@
 layout: book-review
 title: NW
 author: Zadie Smith
+cover: assets/img/book_covers/nw.jpg
 isbn: 9780241144145
 date: 2021-10-01
 finished: 2021-10-01

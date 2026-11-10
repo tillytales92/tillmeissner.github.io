@@ -2,6 +2,7 @@
 layout: book-review
 title: Die Kinder von Eden
 author: Ken Follett
+cover: assets/img/book_covers/die_kinder_von_eden.jpg
 isbn: 9783404145355
 date: 2007-01-01
 finished: 2007-01-01

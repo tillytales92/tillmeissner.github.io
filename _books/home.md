@@ -2,6 +2,7 @@
 layout: book-review
 title: Home
 author: Toni Morrison
+cover: assets/img/book_covers/home.jpg
 isbn: 9780307594167
 date: 2022-08-18
 released: 2012

@@ -2,6 +2,7 @@
 layout: book-review
 title: American Spy
 author: Lauren Wilkinson
+cover: assets/img/book_covers/american_spy.jpg
 isbn: 9780812998955
 date: 2021-09-01
 finished: 2021-09-01

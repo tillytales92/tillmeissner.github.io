@@ -2,6 +2,7 @@
 layout: book-review
 title: "Guns, Germs, and Steel: The Fates of Human Societies"
 author: Jared Diamond
+cover: assets/img/book_covers/guns_germs_and_steel_the_fates_of_human_societies.jpg
 isbn: 9780739467350
 date: 2022-01-23
 released: 1997

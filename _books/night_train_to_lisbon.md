@@ -2,6 +2,7 @@
 layout: book-review
 title: Night Train to Lisbon
 author: Pascal Mercier
+cover: assets/img/book_covers/night_train_to_lisbon.jpg
 isbn: 9780802118585
 date: 2019-11-01
 finished: 2019-11-01

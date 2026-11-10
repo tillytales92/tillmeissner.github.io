@@ -2,6 +2,7 @@
 layout: book-review
 title: "Putting Development First: The Importance of Policy Space in the WTO and International Financial Institutions"
 author: Kevin P. Gallagher
+cover: assets/img/book_covers/putting_development_first_the_importance_of_policy.jpg
 isbn: 9781842776353
 date: 2023-03-08
 finished: 2023-03-08

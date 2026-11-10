@@ -2,6 +2,7 @@
 layout: book-review
 title: The Promise
 author: Damon Galgut
+cover: assets/img/book_covers/the_promise.jpg
 isbn: 9781784744069
 date: 2021-12-01
 finished: 2021-12-01

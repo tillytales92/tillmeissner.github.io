@@ -2,6 +2,7 @@
 layout: book-review
 title: Der Besuch der alten Dame
 author: Friedrich Dürrenmatt
+cover: assets/img/book_covers/der_besuch_der_alten_dame.jpg
 date: 2021-08-10
 released: 1956
 stars: 4

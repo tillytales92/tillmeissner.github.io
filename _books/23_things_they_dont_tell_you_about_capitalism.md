@@ -2,6 +2,7 @@
 layout: book-review
 title: "23 Things They Don't Tell You About Capitalism"
 author: Ha-Joon Chang
+cover: assets/img/book_covers/23_things_they_dont_tell_you_about_capitalism.jpg
 isbn: 9781608191666
 date: 2021-05-01
 finished: 2021-05-01
