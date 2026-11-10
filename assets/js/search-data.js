@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "Here is an overview of projects I have worked on.",
+          description: "An overview of projects I have worked on or am currently working on.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/tillmeissner.github.io/projects/";
