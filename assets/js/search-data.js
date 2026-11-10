@@ -1032,6 +1032,11 @@ ninja.data = [{
           description: "Assessing the Potential of Ultra-Poor Graduation Programs in Upper Egypt.",
           section: "Projects",handler: () => {
               window.location.href = "/tillmeissner.github.io/projects/climate_change_report/";
+            },},{id: "projects-golden-traps-artisanal-mining-in-ghana",
+          title: 'Golden Traps? Artisanal Mining in Ghana',
+          description: "Self-reinforcing dynamics in the shift from agriculture to illegal artisanal gold mining (galamsey), studied with remote sensing and a structural model of land use",
+          section: "Projects",handler: () => {
+              window.location.href = "/tillmeissner.github.io/projects/golden_traps_galamsey/";
             },},{id: "projects-urban-africa-growth-tracker",
           title: 'Urban Africa Growth Tracker',
           description: "An interactive dashboard tracking urbanization trends across Sub-Saharan Africa.",
