@@ -58,7 +58,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/tillmeissner.github.io/blog/";
               },
-            },{id: "post-mapping-conflict-in-ethiopia-with-acled-data",
+            },{id: "post-the-shape-of-growth-land-and-people-in-africa-39-s-100-largest-cities-1990-2025",
+        
+          title: "The Shape of Growth: Land and People in Africa&#39;s 100 Largest Cities, 1990–2025...",
+        
+        description: "Africa&#39;s largest cities more than doubled their population since 1990 but added far less land. An interactive look at how 100 cities grew, using GHSL built-up and population data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/tillmeissner.github.io/blog/2026/the-shape-of-growth/";
+          
+        },
+      },{id: "post-mapping-conflict-in-ethiopia-with-acled-data",
         
           title: "Mapping Conflict in Ethiopia with ACLED Data",
         
