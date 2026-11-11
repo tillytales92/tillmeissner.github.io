@@ -13,3 +13,4 @@ _scripts/*
 _data/citations.yml
 # Standalone interactive page with embedded data (generated, not hand-formatted)
 urban-growth/**
+assets/json/urban-growth.json
