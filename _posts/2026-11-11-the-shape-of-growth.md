@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Shape of Growth: Land and People in Africa's 100 Largest Cities, 1990–2025"
-date: 2026-11-11 12:00:00
+date: 2026-11-11 09:00:00
 description: Africa's largest cities more than doubled their population since 1990 but added far less land. An interactive look at how 100 cities grew, using GHSL built-up and population data.
 tags: urbanisation africa remote-sensing ghsl interactive
 categories: data-stories
