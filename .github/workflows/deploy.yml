@@ -89,8 +89,18 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
       - name: Install and Build 🔧
+        timeout-minutes: 20
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
+          # Install ImageMagick only if the runner image lacks it, and fetch it from
+          # archive.ubuntu.com directly: the runner's default Azure mirror list has
+          # repeatedly failed to resolve, hanging or failing the whole deploy.
+          if ! command -v convert >/dev/null 2>&1 && ! command -v magick >/dev/null 2>&1; then
+            for f in /etc/apt/sources.list.d/ubuntu.sources /etc/apt/sources.list; do
+              [ -f "$f" ] && sudo sed -i 's#mirror+file:/etc/apt/apt-mirrors.txt#http://archive.ubuntu.com/ubuntu/#g' "$f"
+            done
+            sudo apt-get update -o Acquire::Retries=3
+            sudo apt-get install -y -o Acquire::Retries=3 imagemagick
+          fi
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
